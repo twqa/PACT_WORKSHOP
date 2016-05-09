@@ -10,8 +10,8 @@
 
 ##安装html5lib
       cd html5lib-0.9999999
-      sudo python setup.py
+      sudo python setup.py install
 
 ##安装beautifulsoup
       cd beautifulsoup4-4.4.1
-      sudo python setup.py
+      sudo python setup.py install
