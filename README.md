@@ -30,3 +30,8 @@
   - WebApplication: 网站服务，启动网站用。
 # 使用说明
   见文件夹内
+
+## help-tips
+  - java.net.ConnectException: Connection refused
+      查看应用端口号是否被占用
+      lsof -i tcp:［port]
