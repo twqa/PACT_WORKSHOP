@@ -1,4 +1,19 @@
-# 功能
+# 环境需求
+
+### java --version >= 1.8
+### python --version >=2.7
+### IDE=intelliJ
+
+## nice to have
+### gradle
+
+
+
+
+
+
+
+# 功能介绍
 
 ## ContractTestDemoServices
   - JDGrabber.py 从京东抓数据
