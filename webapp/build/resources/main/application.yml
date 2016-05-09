@@ -1,0 +1,3 @@
+path:
+  brandapi: http://localhost:8000/api/
+  modelapi: http://localhost:8010/api/
