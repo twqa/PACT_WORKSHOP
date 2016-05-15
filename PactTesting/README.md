@@ -1,12 +1,14 @@
 这个例子主要目的是跑通contract 测试,调用的服务是:http://localhost:8000/local/brand=神舟
-真正的测试只有靠朱平同学完成了,呵呵
+真正的测试只有靠朱平同学完成了
 
-运行测试前,请开启brand-server服务
+##运行测试前,请开启brand-server服务
 验证方式:浏览器中访问:http://localhost:8000/local/brand=神舟,能得到正确结果
 
-运行测试步骤
-gradle idea --下载所有的依赖
-gradle test --会在target/pact下生成pact文件,内容应该如下:
+##运行测试步骤
+1. gradle idea --下载所有的依赖
+
+2. gradle test --会在target/pact下生成pact文件,内容应该如下:
+
 {
     "provider": {
         "name": "local_getDetailsByBrand_provider"
@@ -41,7 +43,8 @@ gradle test --会在target/pact下生成pact文件,内容应该如下:
         }
     }
 }
-gradle pactVerify  --provider 测试,应该返回如下结果
+
+3. gradle pactVerify  --provider 测试,应该返回如下结果
 
 :compileJava
 Note: /Users/tlqiao/project/pact/PactTesting/src/main/java/com/thoughtworks/service/ConsumerClient.java uses or overrides a deprecated API.
