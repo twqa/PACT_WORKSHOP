@@ -1,0 +1,7 @@
+*.iml
+*.ipr
+*.iws
+*.zip
+gradlew
+gradlew.bat
+.DS_Store

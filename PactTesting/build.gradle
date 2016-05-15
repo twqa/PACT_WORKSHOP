@@ -1,0 +1,45 @@
+
+buildscript {
+    repositories {
+        maven {
+            url "http://repo1.maven.org/maven2"
+        }
+    }
+
+    dependencies {
+        classpath fileTree(dir: 'lib', includes: ['pact-jvm-provider_2.11-3.2.7.jar'])
+    }
+}
+
+
+plugins {
+    id "au.com.dius.pact" version "3.2.7"
+}
+
+pact {
+    serviceProviders {
+        local_getDetailsByBrand_provider {
+            port = 8000
+            hasPactWith('getDetailsByBrand_consumer') {
+                pactFile = file('target/pacts/getDetailsByBrand_consumer-local_getDetailsByBrand_provider.json')
+            }
+        }
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile('org.springframework.ws:spring-ws-core:2.3.0.RELEASE')
+    compile('org.springframework:spring-context:4.2.4.RELEASE')
+    compile('javax.servlet.jsp.jstl:jstl-api:1.2-rev-1')
+    compile('org.apache.httpcomponents:httpclient:4.5.1')
+    testCompile('junit:junit:4.9')
+    compile('au.com.dius:pact-jvm-consumer-junit_2.11:3.2.7')
+    testCompile('org.springframework:spring-test:4.2.4.RELEASE')
+    testCompile('au.com.dius:pact-jvm-provider_2.11:3.2.7')
+}

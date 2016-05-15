@@ -1,0 +1,34 @@
+{
+    "provider": {
+        "name": "local_getDetailsByBrand_provider"
+    },
+    "consumer": {
+        "name": "getDetailsByBrand_consumer"
+    },
+    "interactions": [
+        {
+            "providerState": "test state",
+            "description": "consumer test by pact for getDetailsByBrand",
+            "request": {
+                "method": "GET",
+                "path": "/local/brand=\u795e\u821f",
+                "body": null
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "text/plain;charset=UTF-8"
+                },
+                "body": "{\"Data\":[{\"provider\": \"\u4eac\u4e1c\",\"brand\": \"\u795e\u821f\",\"model\": \"\u6218\u795e K650D-I5 D2\",\"price\": 3109.0},{\"provider\": \"\u6dd8\u5b9d\",\"brand\": \"\u795e\u821f\",\"model\": \" \u6218\u795eK610D-i7 D2\",\"price\": 3499.0}]}"
+            }
+        }
+    ],
+    "metadata": {
+        "pact-specification": {
+            "version": "2.0.0"
+        },
+        "pact-jvm": {
+            "version": "3.2.7"
+        }
+    }
+}
