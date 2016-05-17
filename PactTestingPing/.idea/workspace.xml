@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dace23a-a4d6-4f64-9f5f-103529f8f2e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.gitignore" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
@@ -104,6 +103,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/PactTestingPing.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/TBProducts/TBProductsClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestTBProducts.java" />
     </list>
     <ignored path="PactTestingPing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -713,12 +714,12 @@
       <option name="presentableId" value="Default" />
       <updated>1463464933746</updated>
       <workItem from="1463464936582" duration="277000" />
-      <workItem from="1463466089160" duration="109000" />
+      <workItem from="1463466089160" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="929000" />
+    <option name="totallyTimeSpent" value="1419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
