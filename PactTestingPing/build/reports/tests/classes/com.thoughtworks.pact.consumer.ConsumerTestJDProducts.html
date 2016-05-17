@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.159s</div>
+<div class="counter">0.172s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">runTest</td>
-<td>0.159s</td>
+<td>0.172s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,37 +87,37 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>15:22:22.774 [Test worker] DEBUG o.s.web.client.RestTemplate - Created GET request for &quot;http://localhost:6003/products&quot;
-15:22:22.774 [Test worker] DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
-15:22:22.779 [nioEventLoopGroup-19-1] DEBUG a.c.d.p.c.UnfilteredMockProvider - Received request: 	method: GET
+<pre>15:23:29.663 [Test worker] DEBUG o.s.web.client.RestTemplate - Created GET request for &quot;http://localhost:6003/products&quot;
+15:23:29.663 [Test worker] DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+15:23:29.665 [nioEventLoopGroup-19-1] DEBUG a.c.d.p.c.UnfilteredMockProvider - Received request: 	method: GET
 	path: /products
 	query: [:]
 	headers: [Connection:keep-alive, Content-Length:0, Accept:application/json, application/*+json, User-Agent:Java/1.8.0_66, Host:localhost:6003]
 	matchers: null
 	body: au.com.dius.pact.model.OptionalBody(EMPTY, )
-15:22:22.780 [nioEventLoopGroup-19-1] DEBUG a.c.dius.pact.model.RequestMatching$ - comparing to expected request: 
+15:23:29.666 [nioEventLoopGroup-19-1] DEBUG a.c.dius.pact.model.RequestMatching$ - comparing to expected request: 
 	method: GET
 	path: /products
 	query: null
 	headers: [:]
 	matchers: [:]
 	body: au.com.dius.pact.model.OptionalBody(MISSING, null)
-15:22:22.782 [nioEventLoopGroup-19-1] DEBUG au.com.dius.pact.model.Matching$ - No matcher for text/plain, using equality
-15:22:22.782 [nioEventLoopGroup-19-1] DEBUG a.c.dius.pact.model.RequestMatching$ - Request mismatch: List()
-15:22:22.782 [nioEventLoopGroup-19-1] DEBUG a.c.d.p.c.UnfilteredMockProvider - Generating response: 	status: 200 
+15:23:29.668 [nioEventLoopGroup-19-1] DEBUG au.com.dius.pact.model.Matching$ - No matcher for text/plain, using equality
+15:23:29.668 [nioEventLoopGroup-19-1] DEBUG a.c.dius.pact.model.RequestMatching$ - Request mismatch: List()
+15:23:29.668 [nioEventLoopGroup-19-1] DEBUG a.c.d.p.c.UnfilteredMockProvider - Generating response: 	status: 200 
 	headers: [Content-Type:application/json] 
 	matchers: [:] 
 	body: au.com.dius.pact.model.OptionalBody(PRESENT, {&quot;products&quot;: [{&quot;brand&quot;: &quot;联想&quot;,&quot;model&quot;: &quot;小新Air&quot;,&quot;price&quot;: 6999}],&quot;provider&quot;: &quot;京东&quot;})
-15:22:22.783 [Test worker] DEBUG o.s.web.client.RestTemplate - GET request for &quot;http://localhost:6003/products&quot; resulted in 200 (OK)
-15:22:22.784 [Test worker] DEBUG o.s.web.client.RestTemplate - Reading [class com.fasterxml.jackson.databind.JsonNode] as &quot;application/json&quot; using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@49ff19fe]
+15:23:29.669 [Test worker] DEBUG o.s.web.client.RestTemplate - GET request for &quot;http://localhost:6003/products&quot; resulted in 200 (OK)
+15:23:29.669 [Test worker] DEBUG o.s.web.client.RestTemplate - Reading [class com.fasterxml.jackson.databind.JsonNode] as &quot;application/json&quot; using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@43d0556a]
 hahahah
-15:22:22.896 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact brands_consumer -&gt; brands_provider to file target/pacts/brands_consumer-brands_provider.json
-15:22:22.900 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact brands_consumer -&gt; jd_products_provider to file target/pacts/brands_consumer-jd_products_provider.json
-15:22:22.903 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact jd_products_consumer -&gt; jd_products_provider to file target/pacts/jd_products_consumer-jd_products_provider.json
-15:22:22.906 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact app_consumer -&gt; models_provider to file target/pacts/app_consumer-models_provider.json
-15:22:22.909 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact app_consumer -&gt; brands_provider to file target/pacts/app_consumer-brands_provider.json
-15:22:22.912 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact test_consumer -&gt; test_provider to file target/pacts/test_consumer-test_provider.json
-15:22:22.917 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact brands_consumer -&gt; tb_products_provider to file target/pacts/brands_consumer-tb_products_provider.json
+15:23:29.788 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact brands_consumer -&gt; brands_provider to file target/pacts/brands_consumer-brands_provider.json
+15:23:29.797 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact brands_consumer -&gt; jd_products_provider to file target/pacts/brands_consumer-jd_products_provider.json
+15:23:29.804 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact jd_products_consumer -&gt; jd_products_provider to file target/pacts/jd_products_consumer-jd_products_provider.json
+15:23:29.809 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact app_consumer -&gt; models_provider to file target/pacts/app_consumer-models_provider.json
+15:23:29.814 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact app_consumer -&gt; brands_provider to file target/pacts/app_consumer-brands_provider.json
+15:23:29.819 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact test_consumer -&gt; test_provider to file target/pacts/test_consumer-test_provider.json
+15:23:29.825 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact brands_consumer -&gt; tb_products_provider to file target/pacts/brands_consumer-tb_products_provider.json
 </pre>
 </span>
 </div>
@@ -129,7 +129,7 @@ hahahah
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.10</a> at May 17, 2016 3:22:24 PM</p>
+<a href="http://www.gradle.org">Gradle 2.10</a> at May 17, 2016 3:23:30 PM</p>
 </div>
 </div>
 </body>

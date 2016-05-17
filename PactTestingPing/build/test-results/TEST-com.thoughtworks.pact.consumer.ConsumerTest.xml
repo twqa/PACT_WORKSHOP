@@ -1,154 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thoughtworks.pact.consumer.ConsumerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-05-17T07:22:20" hostname="CNpingzhu.local" time="1.541">
+<testsuite name="com.thoughtworks.pact.consumer.ConsumerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-05-17T07:23:27" hostname="CNpingzhu.local" time="1.357">
   <properties/>
-  <testcase name="runTest" classname="com.thoughtworks.pact.consumer.ConsumerTest" time="1.541"/>
-  <system-out><![CDATA[15:22:20.633 [Test worker] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
-15:22:20.641 [Test worker] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
-15:22:20.649 [Test worker] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
-15:22:20.649 [Test worker] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-15:22:20.649 [Test worker] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-15:22:20.650 [Test worker] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
-15:22:20.659 [Test worker] DEBUG i.n.util.internal.PlatformDependent - UID: 501
-15:22:20.659 [Test worker] DEBUG i.n.util.internal.PlatformDependent - Java version: 8
-15:22:20.659 [Test worker] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
-15:22:20.660 [Test worker] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
-15:22:20.660 [Test worker] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
-15:22:20.741 [Test worker] DEBUG i.n.util.internal.PlatformDependent - Javassist: available
-15:22:20.741 [Test worker] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/w6/6b1srbtn72s5rh9zhp45q2x00000gn/T (java.io.tmpdir)
-15:22:20.741 [Test worker] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-15:22:20.741 [Test worker] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
-15:22:20.755 [Test worker] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
-15:22:20.755 [Test worker] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
-15:22:20.776 [Test worker] DEBUG i.n.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xbc350edea74d6132 (took 0 ms)
-15:22:20.806 [Test worker] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
-15:22:20.806 [Test worker] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
-15:22:20.810 [Test worker] DEBUG io.netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
-15:22:20.810 [Test worker] DEBUG io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
-15:22:21.061 [Test worker] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
-15:22:21.071 [Test worker] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
-15:22:21.072 [Test worker] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8000][total kept alive: 0; route allocated: 0 of 100; total allocated: 0 of 200]
-15:22:21.085 [Test worker] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8000][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 200]
-15:22:21.086 [Test worker] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8000
-15:22:21.088 [Test worker] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8000
-15:22:21.091 [Test worker] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:51077<->127.0.0.1:8000
-15:22:21.091 [Test worker] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request OPTIONS /second HTTP/1.1
-15:22:21.091 [Test worker] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
-15:22:21.092 [Test worker] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
-15:22:21.093 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> OPTIONS /second HTTP/1.1
-15:22:21.093 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> testreqheader: testreqheadervalue
-15:22:21.093 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: localhost:8000
-15:22:21.094 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
-15:22:21.094 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
-15:22:21.094 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
-15:22:21.094 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "OPTIONS /second HTTP/1.1[\r][\n]"
-15:22:21.094 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "testreqheader: testreqheadervalue[\r][\n]"
-15:22:21.094 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8000[\r][\n]"
-15:22:21.094 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
-15:22:21.094 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)[\r][\n]"
-15:22:21.094 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
-15:22:21.094 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
-15:22:21.120 [nioEventLoopGroup-3-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
-15:22:21.134 [nioEventLoopGroup-3-1] DEBUG i.n.u.i.JavassistTypeParameterMatcherGenerator - Generated: io.netty.util.internal.__matchers__.io.netty.handler.codec.http.HttpObjectMatcher
-15:22:21.143 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacity.default: 262144
-15:22:21.147 [nioEventLoopGroup-3-1] DEBUG io.netty.util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
-15:22:21.237 [nioEventLoopGroup-3-1] DEBUG a.c.d.p.c.UnfilteredMockProvider - Received request: 	method: OPTIONS
+  <testcase name="runTest" classname="com.thoughtworks.pact.consumer.ConsumerTest" time="1.357"/>
+  <system-out><![CDATA[15:23:27.649 [Test worker] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+15:23:27.659 [Test worker] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+15:23:27.666 [Test worker] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+15:23:27.666 [Test worker] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+15:23:27.667 [Test worker] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+15:23:27.667 [Test worker] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+15:23:27.677 [Test worker] DEBUG i.n.util.internal.PlatformDependent - UID: 501
+15:23:27.677 [Test worker] DEBUG i.n.util.internal.PlatformDependent - Java version: 8
+15:23:27.677 [Test worker] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+15:23:27.677 [Test worker] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+15:23:27.678 [Test worker] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+15:23:27.738 [Test worker] DEBUG i.n.util.internal.PlatformDependent - Javassist: available
+15:23:27.738 [Test worker] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/w6/6b1srbtn72s5rh9zhp45q2x00000gn/T (java.io.tmpdir)
+15:23:27.738 [Test worker] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+15:23:27.738 [Test worker] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+15:23:27.750 [Test worker] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+15:23:27.750 [Test worker] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+15:23:27.768 [Test worker] DEBUG i.n.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xd5e0070fd52d4953 (took 0 ms)
+15:23:27.787 [Test worker] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+15:23:27.787 [Test worker] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+15:23:27.790 [Test worker] DEBUG io.netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+15:23:27.790 [Test worker] DEBUG io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+15:23:27.987 [Test worker] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+15:23:27.993 [Test worker] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+15:23:27.994 [Test worker] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8000][total kept alive: 0; route allocated: 0 of 100; total allocated: 0 of 200]
+15:23:28.005 [Test worker] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8000][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 200]
+15:23:28.006 [Test worker] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {}->http://localhost:8000
+15:23:28.008 [Test worker] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:8000
+15:23:28.011 [Test worker] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:51117<->127.0.0.1:8000
+15:23:28.011 [Test worker] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request OPTIONS /second HTTP/1.1
+15:23:28.011 [Test worker] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+15:23:28.012 [Test worker] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+15:23:28.013 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> OPTIONS /second HTTP/1.1
+15:23:28.013 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> testreqheader: testreqheadervalue
+15:23:28.013 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: localhost:8000
+15:23:28.013 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+15:23:28.013 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+15:23:28.013 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+15:23:28.014 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "OPTIONS /second HTTP/1.1[\r][\n]"
+15:23:28.014 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "testreqheader: testreqheadervalue[\r][\n]"
+15:23:28.014 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8000[\r][\n]"
+15:23:28.014 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+15:23:28.014 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)[\r][\n]"
+15:23:28.014 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+15:23:28.014 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+15:23:28.032 [nioEventLoopGroup-3-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+15:23:28.044 [nioEventLoopGroup-3-1] DEBUG i.n.u.i.JavassistTypeParameterMatcherGenerator - Generated: io.netty.util.internal.__matchers__.io.netty.handler.codec.http.HttpObjectMatcher
+15:23:28.051 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacity.default: 262144
+15:23:28.056 [nioEventLoopGroup-3-1] DEBUG io.netty.util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+15:23:28.170 [nioEventLoopGroup-3-1] DEBUG a.c.d.p.c.UnfilteredMockProvider - Received request: 	method: OPTIONS
 	path: /second
 	query: [:]
 	headers: [Connection:Keep-Alive, Content-Length:0, testreqheader:testreqheadervalue, Accept-Encoding:gzip,deflate, User-Agent:Apache-HttpClient/4.5.1 (Java/1.8.0_66), Host:localhost:8000]
 	matchers: null
 	body: au.com.dius.pact.model.OptionalBody(EMPTY, )
-15:22:21.257 [nioEventLoopGroup-3-1] DEBUG a.c.dius.pact.model.RequestMatching$ - comparing to expected request: 
+15:23:28.205 [nioEventLoopGroup-3-1] DEBUG a.c.dius.pact.model.RequestMatching$ - comparing to expected request: 
 	method: GET
 	path: /
 	query: null
 	headers: [:]
 	matchers: [:]
 	body: au.com.dius.pact.model.OptionalBody(MISSING, null)
-15:22:21.330 [nioEventLoopGroup-3-1] DEBUG au.com.dius.pact.model.Matching$ - No matcher for text/plain, using equality
-15:22:21.330 [nioEventLoopGroup-3-1] DEBUG a.c.dius.pact.model.RequestMatching$ - Request mismatch: List(MethodMismatch(GET,OPTIONS), PathMismatch(/,/second,None))
-15:22:21.332 [nioEventLoopGroup-3-1] DEBUG a.c.dius.pact.model.RequestMatching$ - comparing to expected request: 
+15:23:28.287 [nioEventLoopGroup-3-1] DEBUG au.com.dius.pact.model.Matching$ - No matcher for text/plain, using equality
+15:23:28.287 [nioEventLoopGroup-3-1] DEBUG a.c.dius.pact.model.RequestMatching$ - Request mismatch: List(MethodMismatch(GET,OPTIONS), PathMismatch(/,/second,None))
+15:23:28.289 [nioEventLoopGroup-3-1] DEBUG a.c.dius.pact.model.RequestMatching$ - comparing to expected request: 
 	method: OPTIONS
 	path: /second
 	query: null
 	headers: [:]
 	matchers: [:]
 	body: au.com.dius.pact.model.OptionalBody(EMPTY, )
-15:22:21.335 [nioEventLoopGroup-3-1] DEBUG au.com.dius.pact.model.Matching$ - No matcher for text/plain, using equality
-15:22:21.335 [nioEventLoopGroup-3-1] DEBUG a.c.dius.pact.model.RequestMatching$ - Request mismatch: List()
-15:22:21.341 [nioEventLoopGroup-3-1] DEBUG a.c.d.p.c.UnfilteredMockProvider - Generating response: 	status: 200 
+15:23:28.293 [nioEventLoopGroup-3-1] DEBUG au.com.dius.pact.model.Matching$ - No matcher for text/plain, using equality
+15:23:28.293 [nioEventLoopGroup-3-1] DEBUG a.c.dius.pact.model.RequestMatching$ - Request mismatch: List()
+15:23:28.298 [nioEventLoopGroup-3-1] DEBUG a.c.d.p.c.UnfilteredMockProvider - Generating response: 	status: 200 
 	headers: [:] 
 	matchers: [:] 
 	body: au.com.dius.pact.model.OptionalBody(EMPTY, )
-15:22:21.349 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
-15:22:21.349 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
-15:22:21.349 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Length: 0[\r][\n]"
-15:22:21.349 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
-15:22:21.352 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
-15:22:21.352 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
-15:22:21.352 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Length: 0
-15:22:21.355 [Test worker] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
-15:22:21.355 [Test worker] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://localhost:8000] can be kept alive indefinitely
-15:22:21.355 [Test worker] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8000][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 200]
-15:22:21.360 [Test worker] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
-15:22:21.361 [Test worker] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
-15:22:21.361 [Test worker] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8000][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 200]
-15:22:21.361 [Test worker] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8000][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 200]
-15:22:21.361 [Test worker] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request GET / HTTP/1.1
-15:22:21.361 [Test worker] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
-15:22:21.361 [Test worker] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
-15:22:21.361 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> GET / HTTP/1.1
-15:22:21.361 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> testreqheader: testreqheadervalue
-15:22:21.361 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: localhost:8000
-15:22:21.361 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
-15:22:21.361 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
-15:22:21.361 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
-15:22:21.362 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "GET / HTTP/1.1[\r][\n]"
-15:22:21.362 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "testreqheader: testreqheadervalue[\r][\n]"
-15:22:21.362 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8000[\r][\n]"
-15:22:21.362 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
-15:22:21.362 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)[\r][\n]"
-15:22:21.362 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
-15:22:21.362 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
-15:22:21.364 [nioEventLoopGroup-3-1] DEBUG a.c.d.p.c.UnfilteredMockProvider - Received request: 	method: GET
+15:23:28.304 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+15:23:28.305 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+15:23:28.305 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Length: 0[\r][\n]"
+15:23:28.305 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+15:23:28.307 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+15:23:28.307 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+15:23:28.307 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Length: 0
+15:23:28.310 [Test worker] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+15:23:28.310 [Test worker] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://localhost:8000] can be kept alive indefinitely
+15:23:28.310 [Test worker] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8000][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 200]
+15:23:28.316 [Test worker] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+15:23:28.316 [Test worker] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+15:23:28.316 [Test worker] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:8000][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 200]
+15:23:28.316 [Test worker] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:8000][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 200]
+15:23:28.316 [Test worker] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request GET / HTTP/1.1
+15:23:28.316 [Test worker] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+15:23:28.316 [Test worker] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+15:23:28.316 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> GET / HTTP/1.1
+15:23:28.316 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> testreqheader: testreqheadervalue
+15:23:28.316 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: localhost:8000
+15:23:28.317 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+15:23:28.317 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+15:23:28.317 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+15:23:28.317 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "GET / HTTP/1.1[\r][\n]"
+15:23:28.317 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "testreqheader: testreqheadervalue[\r][\n]"
+15:23:28.317 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: localhost:8000[\r][\n]"
+15:23:28.317 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+15:23:28.317 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)[\r][\n]"
+15:23:28.317 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+15:23:28.317 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+15:23:28.318 [nioEventLoopGroup-3-1] DEBUG a.c.d.p.c.UnfilteredMockProvider - Received request: 	method: GET
 	path: /
 	query: [:]
 	headers: [Connection:Keep-Alive, Content-Length:0, testreqheader:testreqheadervalue, Accept-Encoding:gzip,deflate, User-Agent:Apache-HttpClient/4.5.1 (Java/1.8.0_66), Host:localhost:8000]
 	matchers: null
 	body: au.com.dius.pact.model.OptionalBody(EMPTY, )
-15:22:21.365 [nioEventLoopGroup-3-1] DEBUG a.c.dius.pact.model.RequestMatching$ - comparing to expected request: 
+15:23:28.320 [nioEventLoopGroup-3-1] DEBUG a.c.dius.pact.model.RequestMatching$ - comparing to expected request: 
 	method: GET
 	path: /
 	query: null
 	headers: [:]
 	matchers: [:]
 	body: au.com.dius.pact.model.OptionalBody(MISSING, null)
-15:22:21.371 [nioEventLoopGroup-3-1] DEBUG au.com.dius.pact.model.Matching$ - No matcher for text/plain, using equality
-15:22:21.371 [nioEventLoopGroup-3-1] DEBUG a.c.dius.pact.model.RequestMatching$ - Request mismatch: List()
-15:22:21.371 [nioEventLoopGroup-3-1] DEBUG a.c.dius.pact.model.RequestMatching$ - comparing to expected request: 
+15:23:28.324 [nioEventLoopGroup-3-1] DEBUG au.com.dius.pact.model.Matching$ - No matcher for text/plain, using equality
+15:23:28.325 [nioEventLoopGroup-3-1] DEBUG a.c.dius.pact.model.RequestMatching$ - Request mismatch: List()
+15:23:28.325 [nioEventLoopGroup-3-1] DEBUG a.c.dius.pact.model.RequestMatching$ - comparing to expected request: 
 	method: OPTIONS
 	path: /second
 	query: null
 	headers: [:]
 	matchers: [:]
 	body: au.com.dius.pact.model.OptionalBody(EMPTY, )
-15:22:21.375 [nioEventLoopGroup-3-1] DEBUG au.com.dius.pact.model.Matching$ - No matcher for text/plain, using equality
-15:22:21.375 [nioEventLoopGroup-3-1] DEBUG a.c.dius.pact.model.RequestMatching$ - Request mismatch: List(MethodMismatch(OPTIONS,GET), PathMismatch(/second,/,None))
-15:22:21.376 [nioEventLoopGroup-3-1] DEBUG a.c.d.p.c.UnfilteredMockProvider - Generating response: 	status: 200 
+15:23:28.328 [nioEventLoopGroup-3-1] DEBUG au.com.dius.pact.model.Matching$ - No matcher for text/plain, using equality
+15:23:28.329 [nioEventLoopGroup-3-1] DEBUG a.c.dius.pact.model.RequestMatching$ - Request mismatch: List(MethodMismatch(OPTIONS,GET), PathMismatch(/second,/,None))
+15:23:28.329 [nioEventLoopGroup-3-1] DEBUG a.c.d.p.c.UnfilteredMockProvider - Generating response: 	status: 200 
 	headers: [:] 
 	matchers: [:] 
 	body: au.com.dius.pact.model.OptionalBody(PRESENT, {"provider": "JD", "brand": "SZ"})
-15:22:21.379 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
-15:22:21.379 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
-15:22:21.380 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Length: 33[\r][\n]"
-15:22:21.382 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
-15:22:21.382 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "{"provider": "JD", "brand": "SZ"}"
-15:22:21.382 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
-15:22:21.382 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
-15:22:21.382 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Length: 33
-15:22:21.383 [Test worker] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
-15:22:21.384 [Test worker] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://localhost:8000] can be kept alive indefinitely
-15:22:21.384 [Test worker] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8000][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 200]
-15:22:21.673 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact test_consumer -> test_provider to file target/pacts/test_consumer-test_provider.json
+15:23:28.331 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+15:23:28.331 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+15:23:28.331 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Length: 33[\r][\n]"
+15:23:28.333 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+15:23:28.333 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "{"provider": "JD", "brand": "SZ"}"
+15:23:28.333 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+15:23:28.333 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+15:23:28.333 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Length: 33
+15:23:28.334 [Test worker] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+15:23:28.335 [Test worker] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://localhost:8000] can be kept alive indefinitely
+15:23:28.335 [Test worker] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:8000][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 200]
+15:23:28.605 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact test_consumer -> test_provider to file target/pacts/test_consumer-test_provider.json
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
