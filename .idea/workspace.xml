@@ -1,338 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="724f1849-8dc1-48ef-949a-98afd5deb037" name="Default" comment="pact workshop - ping sample code">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.gradle/2.9/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.gradle/2.9/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.gradle/2.9/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.gradle/2.9/taskArtifacts/outputFileStates.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.gradle/2.9/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/build/classes/main/com/thoughtworks/service/ConsumerClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/build/classes/test/com/thoughtworks/pact/consumer/getDetailsByBrandTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/build/classes/test/com/thoughtworks/pact/JDProducts/JDProductsClient$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/build/classes/test/com/thoughtworks/pact/JDProducts/JDProductsClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestJDProducts.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/build/classes/test/com/thoughtworks/pact/provider/ProviderTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/classes/test/com/thoughtworks/pact/brands/BrandsClient$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/classes/test/com/thoughtworks/pact/brands/BrandsClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/classes/test/com/thoughtworks/pact/brands/ConsumerClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestBrands.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestBrandsDsl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestModels.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/classes/test/com/thoughtworks/pact/models/ModelsClient$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/classes/test/com/thoughtworks/pact/models/ModelsClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/test-results/binary/test/output.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/test-results/binary/test/output.bin.idx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/test-results/binary/test/results.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/tmp/test/jar_extract_4248869434986498999_tmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/tmp/test/jar_extract_8206784491741248662_tmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/tmp/test/jar_extract_8399440339165154448_tmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/PACT_WORKSHOP.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/PactTestingPing.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/PactTestingPing_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/PactTestingPing_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.gradle/2.10/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.gradle/2.9/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__au_com_dius_pact_jvm_consumer_2_11_3_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__au_com_dius_pact_jvm_consumer_junit_2_11_3_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__au_com_dius_pact_jvm_matchers_2_11_3_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__au_com_dius_pact_jvm_model_2_11_3_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__au_com_dius_pact_jvm_provider_2_11_3_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_6_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_6_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__com_github_zafarkhaja_java_semver_0_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__com_google_code_findbugs_annotations_2_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__com_google_guava_guava_18_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__com_googlecode_java_diff_utils_diffutils_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__com_ning_async_http_client_1_9_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__com_typesafe_scala_logging_scala_logging_2_11_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__commons_beanutils_commons_beanutils_1_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__commons_lang_commons_lang_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__dk_brics_automaton_automaton_1_11_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__io_gatling_jsonpath_2_11_0_6_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__io_netty_netty_3_10_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__io_netty_netty_buffer_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__io_netty_netty_codec_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__io_netty_netty_codec_http_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__io_netty_netty_common_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__io_netty_netty_handler_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__io_netty_netty_transport_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__javax_servlet_jsp_jsp_api_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__javax_servlet_jsp_jstl_jstl_api_1_2_rev_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__javax_servlet_servlet_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__net_databinder_dispatch_dispatch_core_2_11_0_11_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__net_databinder_unfiltered_2_11_0_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__net_databinder_unfiltered_netty_2_11_0_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__net_databinder_unfiltered_netty_server_2_11_0_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__net_databinder_unfiltered_util_2_11_0_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__net_sf_ezmorph_ezmorph_1_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__net_sf_json_lib_json_lib_2_3_jdk15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__net_sourceforge_nekohtml_nekohtml_1_9_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_codehaus_groovy_groovy_all_2_4_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_codehaus_groovy_groovy_all_2_4_6_indy.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_codehaus_groovy_modules_http_builder_http_builder_0_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_fusesource_jansi_jansi_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_javassist_javassist_3_18_2_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_json_json_20140107.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_reflections_reflections_0_9_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_scala_lang_modules_scala_xml_2_11_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_scala_lang_scala_compiler_2_11_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_scala_lang_scala_library_2_11_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_scala_lang_scala_reflect_2_11_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_scalatest_scalatest_2_11_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_springframework_spring_aop_4_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_springframework_spring_beans_4_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_springframework_spring_context_4_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_springframework_spring_core_4_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_springframework_spring_expression_4_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_springframework_spring_oxm_4_0_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_springframework_spring_test_4_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_springframework_spring_web_4_0_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_springframework_spring_webmvc_4_0_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_springframework_ws_spring_ws_core_2_3_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_springframework_ws_spring_xml_2_3_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__xerces_xercesImpl_2_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__xml_apis_xml_apis_1_3_04.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__xml_resolver_xml_resolver_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/build/resources/main/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/build/resources/test/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/classes/production/PactTesting/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/classes/test/PactTesting/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTesting/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/.idea/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.gradle/2.10/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__au_com_dius_pact_jvm_consumer_2_11_3_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__au_com_dius_pact_jvm_consumer_junit_2_11_3_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__au_com_dius_pact_jvm_matchers_2_11_3_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__au_com_dius_pact_jvm_model_2_11_3_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__au_com_dius_pact_jvm_provider_2_11_3_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__au_com_dius_pact_jvm_provider_junit_2_11_3_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__com_github_rholder_guava_retrying_1_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__com_github_zafarkhaja_java_semver_0_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__com_google_code_findbugs_annotations_2_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__com_google_guava_guava_18_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__com_googlecode_java_diff_utils_diffutils_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__com_ning_async_http_client_1_9_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__com_typesafe_scala_logging_scala_logging_2_11_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__commons_beanutils_commons_beanutils_1_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__commons_lang_commons_lang_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__dk_brics_automaton_automaton_1_11_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__io_gatling_jsonpath_2_11_0_6_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__io_netty_netty_3_10_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__io_netty_netty_buffer_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__io_netty_netty_codec_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__io_netty_netty_codec_http_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__io_netty_netty_common_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__io_netty_netty_handler_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__io_netty_netty_transport_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__net_databinder_dispatch_dispatch_core_2_11_0_11_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__net_databinder_unfiltered_2_11_0_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__net_databinder_unfiltered_netty_2_11_0_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__net_databinder_unfiltered_netty_server_2_11_0_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__net_databinder_unfiltered_util_2_11_0_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__net_sf_ezmorph_ezmorph_1_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__net_sf_json_lib_json_lib_2_3_jdk15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__net_sourceforge_nekohtml_nekohtml_1_9_22.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__org_apache_httpcomponents_fluent_hc_4_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__org_codehaus_groovy_groovy_all_2_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__org_codehaus_groovy_groovy_all_2_4_4_indy.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__org_codehaus_groovy_modules_http_builder_http_builder_0_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__org_fusesource_jansi_jansi_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__org_javassist_javassist_3_18_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__org_json_json_20140107.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__org_reflections_reflections_0_9_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__org_scala_lang_modules_scala_xml_2_11_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__org_scala_lang_scala_compiler_2_11_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__org_scala_lang_scala_library_2_11_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__org_scala_lang_scala_reflect_2_11_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__org_scalatest_scalatest_2_11_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__xerces_xercesImpl_2_11_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__xml_apis_xml_apis_1_4_01.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/.idea/libraries/Gradle__xml_resolver_xml_resolver_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/build/resources/test/pacts/brands_consumer-brands_provider.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand-server/build/resources/test/pacts/brands_consumer-jd_products.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.gradle/2.10/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__au_com_dius_pact_jvm_matchers_2_11_3_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__au_com_dius_pact_jvm_model_2_11_3_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__au_com_dius_pact_jvm_provider_2_11_3_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__au_com_dius_pact_jvm_provider_junit_2_11_3_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__com_github_rholder_guava_retrying_1_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__com_github_zafarkhaja_java_semver_0_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__com_google_code_findbugs_annotations_2_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__com_google_guava_guava_18_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__com_googlecode_java_diff_utils_diffutils_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__com_ning_async_http_client_1_9_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__com_typesafe_scala_logging_scala_logging_2_11_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__commons_beanutils_commons_beanutils_1_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__commons_lang_commons_lang_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__io_gatling_jsonpath_2_11_0_6_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__io_netty_netty_3_10_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__io_netty_netty_buffer_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__io_netty_netty_codec_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__io_netty_netty_codec_http_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__io_netty_netty_common_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__io_netty_netty_handler_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__io_netty_netty_transport_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__net_databinder_dispatch_dispatch_core_2_11_0_11_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__net_databinder_unfiltered_2_11_0_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__net_databinder_unfiltered_netty_2_11_0_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__net_databinder_unfiltered_netty_server_2_11_0_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__net_databinder_unfiltered_util_2_11_0_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__net_sf_ezmorph_ezmorph_1_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__net_sf_json_lib_json_lib_2_3_jdk15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__net_sourceforge_nekohtml_nekohtml_1_9_22.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__org_apache_httpcomponents_fluent_hc_4_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__org_codehaus_groovy_groovy_all_2_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__org_codehaus_groovy_groovy_all_2_4_4_indy.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__org_codehaus_groovy_modules_http_builder_http_builder_0_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__org_fusesource_jansi_jansi_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__org_javassist_javassist_3_18_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__org_json_json_20140107.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__org_reflections_reflections_0_9_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__org_scala_lang_modules_scala_xml_2_11_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__org_scala_lang_scala_compiler_2_11_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__org_scala_lang_scala_library_2_11_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__org_scala_lang_scala_reflect_2_11_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__org_scalatest_scalatest_2_11_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__xerces_xercesImpl_2_11_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__xml_apis_xml_apis_1_4_01.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/.idea/libraries/Gradle__xml_resolver_xml_resolver_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-server/build/resources/test/pacts/models_consumer-models_provider.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.gradle/2.10/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__au_com_dius_pact_jvm_consumer_2_11_3_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__au_com_dius_pact_jvm_consumer_junit_2_11_3_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__au_com_dius_pact_jvm_matchers_2_11_3_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__au_com_dius_pact_jvm_model_2_11_3_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__com_github_zafarkhaja_java_semver_0_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__com_google_guava_guava_15_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__com_googlecode_java_diff_utils_diffutils_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__com_ning_async_http_client_1_9_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__com_typesafe_scala_logging_scala_logging_2_11_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__commons_beanutils_commons_beanutils_1_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__commons_lang_commons_lang_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__dk_brics_automaton_automaton_1_11_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__io_gatling_jsonpath_2_11_0_6_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__io_netty_netty_3_10_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__io_netty_netty_buffer_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__io_netty_netty_codec_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__io_netty_netty_codec_http_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__io_netty_netty_common_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__io_netty_netty_handler_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__io_netty_netty_transport_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__net_databinder_dispatch_dispatch_core_2_11_0_11_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__net_databinder_unfiltered_2_11_0_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__net_databinder_unfiltered_netty_2_11_0_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__net_databinder_unfiltered_netty_server_2_11_0_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__net_databinder_unfiltered_util_2_11_0_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__net_sf_ezmorph_ezmorph_1_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__net_sf_json_lib_json_lib_jdk15_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__net_sourceforge_nekohtml_nekohtml_1_9_22.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__org_apache_httpcomponents_fluent_hc_4_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__org_codehaus_groovy_groovy_all_indy_2_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__org_codehaus_groovy_modules_http_builder_http_builder_0_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__org_json_json_20140107.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__org_scala_lang_modules_scala_xml_2_11_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__org_scala_lang_scala_compiler_2_11_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__org_scala_lang_scala_library_2_11_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__org_scala_lang_scala_reflect_2_11_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__xerces_xercesImpl_2_11_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__xml_apis_xml_apis_1_4_01.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__xml_resolver_xml_resolver_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTestBrands.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTestModels.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/reports/tests/css/base-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/reports/tests/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/reports/tests/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/reports/tests/js/report.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/reports/tests/packages/com.thoughtworks.pact.consumer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTestBrands.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTestModels.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/classes/production/name-parser/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/classes/production/name-parser/templates/hello.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/webapp/build/tmp/test/jar_extract_173713873855678547_tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/PactTestingPing/.idea/workspace.xml" />
+    <list default="true" id="724f1849-8dc1-48ef-949a-98afd5deb037" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/TBProducts/TBProductsClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestTBProducts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brand-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/brand-server/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/model-server/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/webapp/.idea/workspace.xml" />
@@ -483,7 +155,7 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/PactTestingPing" />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -744,7 +416,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/PactTestingPing/build.gradle" />
+        <option value="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/TBProducts/TBProductsClient.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestTBProducts.java" />
       </list>
     </option>
   </component>
@@ -825,6 +499,178 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PACT_WORKSHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PACT_WORKSHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PactTestingPing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PACT_WORKSHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PACT_WORKSHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PactTestingPing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PACT_WORKSHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PACT_WORKSHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PactTestingPing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TBProducts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PACT_WORKSHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PACT_WORKSHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PactTestingPing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PACT_WORKSHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PACT_WORKSHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PactTestingPing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JDProducts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PACT_WORKSHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PACT_WORKSHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PactTestingPing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consumer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -836,6 +682,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thoughtworks.pact.consumer" />
+      <recent name="com.thoughtworks.pact.TBProducts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/PactTestingPing/.idea" />
       <recent name="$PROJECT_DIR$/PactTestingPing/src/test/resources/pacts" />
@@ -1288,12 +1138,20 @@
       <workItem from="1463370428856" duration="708000" />
       <workItem from="1463463161710" duration="1743000" />
       <workItem from="1463465089433" duration="980000" />
-      <workItem from="1463466090689" duration="107000" />
+      <workItem from="1463466090689" duration="1095000" />
     </task>
+    <task id="LOCAL-00001" summary="added package TBProducts">
+      <created>1463466823386</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1463466823386</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6580000" />
+    <option name="totallyTimeSpent" value="7568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
@@ -1311,7 +1169,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36388507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30972818" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29399142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1509299" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1343,7 +1201,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="pact workshop - ping sample code" />
-    <option name="LAST_COMMIT_MESSAGE" value="pact workshop - ping sample code" />
+    <MESSAGE value="added package TBProducts" />
+    <option name="LAST_COMMIT_MESSAGE" value="added package TBProducts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1466,6 +1325,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/TBProducts/TBProductsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/JDProducts/JDProductsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestTBProducts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
           <folding />
         </state>
       </provider>
