@@ -1,0 +1,72 @@
+buildscript {
+    ext {
+        springBootVersion = '1.3.0.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        //for pact provider
+        classpath('au.com.dius:pact-jvm-provider-gradle_2.11:3.2.6')
+    }
+}
+
+group 'com.javaapi'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'spring-boot'
+apply plugin: 'au.com.dius.pact'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile("com.fasterxml.jackson.core:jackson-databind")
+    testCompile("junit:junit")
+    testCompile("au.com.dius:pact-jvm-consumer-junit_2.11:3.2.6")
+    testCompile("au.com.dius:pact-jvm-provider-junit_2.11:3.2.6")
+}
+
+pact {
+    serviceProviders {
+        // You can define as many as you need, but each must have a unique name
+        foo_provider1 {
+            // All the provider properties are optional, and have sensible defaults (shown below)
+            protocol = 'http'
+            host = 'localhost'
+            port = 8000
+            path = ''
+            // Again, you can define as many consumers for each provider as you need, but each must have a unique name
+            hasPactWith('foo_consumer1') {
+                // currently supports a file path using file() or a URL using url()
+                pactFile = file('src/test/resources/pacts/brands_consumer-brands_provider.json')
+            }
+        }
+        foo_provider2 {
+            // All the provider properties are optional, and have sensible defaults (shown below)
+            protocol = 'http'
+            host = 'localhost'
+            port = 6001
+            path = ''
+            // Again, you can define as many consumers for each provider as you need, but each must have a unique name
+            hasPactWith('foo_consumer2') {
+                // currently supports a file path using file() or a URL using url()
+                pactFile = file('src/test/resources/pacts/brands_consumer-jd_products.json')
+            }
+        }
+    }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.9'
+}
+
+
