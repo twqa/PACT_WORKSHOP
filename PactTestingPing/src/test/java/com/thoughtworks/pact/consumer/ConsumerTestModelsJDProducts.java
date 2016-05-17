@@ -46,7 +46,7 @@ public class ConsumerTestModelsJDProducts {
     @Rule
     public PactProviderRule provider = new PactProviderRule("jd_products_provider", "localhost", 6003, this);
 
-    @Pact(provider="jd_products_provider", consumer="jd_products_consumer")
+    @Pact(provider="jd_products_provider", consumer="models_consumer")
     public PactFragment createFragment(PactDslWithProvider builder) {
         Map<String, String> headers = new HashMap<>();
         //headers.put("Content-Type", "application/json;charset=UTF-8");

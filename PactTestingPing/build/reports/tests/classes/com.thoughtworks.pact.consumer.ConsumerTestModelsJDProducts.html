@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.thoughtworks.pact.consumer.ConsumerTestModelsJDProducts</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.thoughtworks.pact.consumer.ConsumerTestModelsJDProducts</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.thoughtworks.pact.consumer.html">com.thoughtworks.pact.consumer</a> &gt; ConsumerTestModelsJDProducts</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.143s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">runTest</td>
+<td>0.143s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>15:22:23.083 [Test worker] DEBUG o.s.web.client.RestTemplate - Created GET request for &quot;http://localhost:6003/products&quot;
+15:22:23.084 [Test worker] DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [application/json, application/*+json]
+15:22:23.086 [nioEventLoopGroup-23-1] DEBUG a.c.d.p.c.UnfilteredMockProvider - Received request: 	method: GET
+	path: /products
+	query: [:]
+	headers: [Connection:keep-alive, Content-Length:0, Accept:application/json, application/*+json, User-Agent:Java/1.8.0_66, Host:localhost:6003]
+	matchers: null
+	body: au.com.dius.pact.model.OptionalBody(EMPTY, )
+15:22:23.087 [nioEventLoopGroup-23-1] DEBUG a.c.dius.pact.model.RequestMatching$ - comparing to expected request: 
+	method: GET
+	path: /products
+	query: null
+	headers: [:]
+	matchers: [:]
+	body: au.com.dius.pact.model.OptionalBody(MISSING, null)
+15:22:23.089 [nioEventLoopGroup-23-1] DEBUG au.com.dius.pact.model.Matching$ - No matcher for text/plain, using equality
+15:22:23.089 [nioEventLoopGroup-23-1] DEBUG a.c.dius.pact.model.RequestMatching$ - Request mismatch: List()
+15:22:23.089 [nioEventLoopGroup-23-1] DEBUG a.c.d.p.c.UnfilteredMockProvider - Generating response: 	status: 200 
+	headers: [Content-Type:application/json] 
+	matchers: [:] 
+	body: au.com.dius.pact.model.OptionalBody(PRESENT, {&quot;products&quot;: [{&quot;brand&quot;: &quot;联想&quot;,&quot;model&quot;: &quot;小新Air&quot;,&quot;price&quot;: 6999}],&quot;provider&quot;: &quot;京东&quot;})
+15:22:23.090 [Test worker] DEBUG o.s.web.client.RestTemplate - GET request for &quot;http://localhost:6003/products&quot; resulted in 200 (OK)
+15:22:23.090 [Test worker] DEBUG o.s.web.client.RestTemplate - Reading [class com.fasterxml.jackson.databind.JsonNode] as &quot;application/json&quot; using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@488c3cc6]
+hahahah
+15:22:23.199 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact brands_consumer -&gt; brands_provider to file target/pacts/brands_consumer-brands_provider.json
+15:22:23.201 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact brands_consumer -&gt; jd_products_provider to file target/pacts/brands_consumer-jd_products_provider.json
+15:22:23.204 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact jd_products_consumer -&gt; jd_products_provider to file target/pacts/jd_products_consumer-jd_products_provider.json
+15:22:23.206 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact models_consumer -&gt; models_provider to file target/pacts/models_consumer-models_provider.json
+15:22:23.208 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact app_consumer -&gt; models_provider to file target/pacts/app_consumer-models_provider.json
+15:22:23.209 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact models_consumer -&gt; jd_products_provider to file target/pacts/models_consumer-jd_products_provider.json
+15:22:23.212 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact app_consumer -&gt; brands_provider to file target/pacts/app_consumer-brands_provider.json
+15:22:23.214 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact test_consumer -&gt; test_provider to file target/pacts/test_consumer-test_provider.json
+15:22:23.216 [Test worker] DEBUG a.c.dius.pact.consumer.PactGenerator - Writing pact brands_consumer -&gt; tb_products_provider to file target/pacts/brands_consumer-tb_products_provider.json
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.10</a> at May 17, 2016 3:22:24 PM</p>
+</div>
+</div>
+</body>
+</html>

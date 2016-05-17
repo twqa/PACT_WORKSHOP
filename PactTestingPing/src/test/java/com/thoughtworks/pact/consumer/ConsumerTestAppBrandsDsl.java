@@ -29,7 +29,7 @@ public class ConsumerTestAppBrandsDsl {
     @Rule
     public PactProviderRule provider = new PactProviderRule("brands_provider", "localhost", 8000, this);
 
-    @Pact(provider="brands_provider", consumer="brands_consumer")
+    @Pact(provider="brands_provider", consumer="app_consumer")
     public PactFragment createFragment(PactDslWithProvider builder) {
         Map<String, String> headers = new HashMap<>();
         //headers.put("Content-Type", "application/json;charset=UTF-8");
