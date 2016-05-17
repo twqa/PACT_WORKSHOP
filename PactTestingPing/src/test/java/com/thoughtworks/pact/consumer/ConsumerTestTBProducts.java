@@ -10,6 +10,7 @@ import au.com.dius.pact.model.PactFragment;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.thoughtworks.pact.JDProducts.JDProductsClient;
+import com.thoughtworks.pact.TBProducts.TBProductsClient;
 import junit.framework.TestCase;
 import org.junit.Rule;
 import org.junit.Test;
