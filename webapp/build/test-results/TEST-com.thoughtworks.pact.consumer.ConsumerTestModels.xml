@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.thoughtworks.pact.consumer.ConsumerTestModels" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-05-16T15:39:10" hostname="CNpingzhu.local" time="0.768">
+  <properties/>
+  <testcase name="runTest" classname="com.thoughtworks.pact.consumer.ConsumerTestModels" time="0.768"/>
+  <system-out><![CDATA[23:39:10.278 [Test worker] DEBUG o.s.web.client.RestTemplate - Created GET request for "http://localhost:8010/api/mod=%E6%88%98%E7%A5%9E"
+23:39:10.278 [Test worker] DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [text/plain, application/json, application/*+json, */*]
+23:39:11.039 [Test worker] DEBUG o.s.web.client.RestTemplate - GET request for "http://localhost:8010/api/mod=%E6%88%98%E7%A5%9E" resulted in 200 (OK)
+23:39:11.040 [Test worker] DEBUG o.s.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@cabd0cd]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

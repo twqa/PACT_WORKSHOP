@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: javax.servlet.jsp.jstl:jstl-api:1.2-rev-1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet.jsp.jstl/jstl-api/1.2-rev-1/bae5cf5e025d60472a93917bfd5e52cb39283174/jstl-api-1.2-rev-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet.jsp.jstl/jstl-api/1.2-rev-1/dd2322c1c29d4227c4de15b49dc425e2ed61c912/jstl-api-1.2-rev-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+      http://www.springframework.org/schema/context
+      http://www.springframework.org/schema/context/spring-context.xsd">
+
+<context:component-scan base-package="com.thoughtworks.*">
+    </context:component-scan>
+
+    <!-- 开启注解 -->
+    <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" />
+    <bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping"></bean>
+
+    <bean id="ConsumerClient" class="com.thoughtworks.service.ConsumerClient"></bean>
+
+    <bean id="RestTemplate" class="org.springframework.web.client.RestTemplate"></bean>
+
+    <bean id="DefaultHttpClient" class="org.apache.http.impl.client.DefaultHttpClient"></bean>
+    <bean id="HttpGet" class="org.apache.http.client.methods.HttpGet"></bean>
+    <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+        <constructor-arg value="UTF-8" index="0">
+        </constructor-arg>
+        <property name="supportedMediaTypes">
+            <list>
+                <value>text/plain;charset=UTF-8</value>
+            </list>
+        </property>
+    </bean>
+
+</beans>
