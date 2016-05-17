@@ -48,6 +48,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrandsDsl.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppModels.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsJDProducts.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestModelsJDProducts.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestModelsTBProducts.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/models/ModelsClient.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/provider/ProviderTest.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/resources/pacts/brands_consumer-brands_provider.json" />
@@ -58,27 +60,9 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/target/pacts/models_consumer-models_provider.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/target/pacts/tb_products_consumer-tb_products_provider.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/target/pacts/test_consumer-test_provider.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_11.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrands.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsDsl.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrandsDsl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestJDProducts.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsJDProducts.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestModels.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppModels.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestTBProducts.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsTBProducts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/PactTestingPing.iml" afterPath="$PROJECT_DIR$/.idea/modules/PactTestingPing.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/PactTestingPing_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/PactTestingPing_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/PactTestingPing_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/PactTestingPing_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.idea/modules/PactTestingPing.iml" afterPath="$PROJECT_DIR$/PactTestingPing/.idea/modules/PactTestingPing.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.idea/vcs.xml" afterPath="$PROJECT_DIR$/PactTestingPing/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/PactTestingPing/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brand-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/brand-server/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/model-server/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/webapp/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTestModels.html" afterPath="$PROJECT_DIR$/webapp/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTestModels.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/build/reports/tests/index.html" afterPath="$PROJECT_DIR$/webapp/build/reports/tests/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/build/reports/tests/packages/com.thoughtworks.pact.consumer.html" afterPath="$PROJECT_DIR$/webapp/build/reports/tests/packages/com.thoughtworks.pact.consumer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTestModels.xml" afterPath="$PROJECT_DIR$/webapp/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTestModels.xml" />
     </list>
     <list id="f3812e04-c26d-458c-abc3-36bbf84059bc" name="Failed commit: Default" comment="pact workshop - ping sample code">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/.idea/compiler.xml" />
@@ -237,11 +221,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConsumerTestBrandsTBProducts.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConsumerTestBrandsTBProducts.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsTBProducts.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerTestModelsJDProducts.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestModelsJDProducts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerTestModelsTBProducts.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestModelsTBProducts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -664,6 +668,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestTBProducts.java" />
         <option value="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsTBProducts.java" />
+        <option value="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestModelsJDProducts.java" />
+        <option value="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestModelsTBProducts.java" />
       </list>
     </option>
   </component>
@@ -1385,7 +1391,7 @@
       <workItem from="1463465089433" duration="980000" />
       <workItem from="1463466090689" duration="1357000" />
       <workItem from="1463469107039" duration="11000" />
-      <workItem from="1463469389039" duration="147000" />
+      <workItem from="1463469389039" duration="234000" />
     </task>
     <task id="LOCAL-00001" summary="added package TBProducts">
       <created>1463466823386</created>
@@ -1405,11 +1411,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7988000" />
+    <option name="totallyTimeSpent" value="8075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1421,10 +1427,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5503448" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7099863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41860464" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29399142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3955651" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1509299" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1617,6 +1623,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestModelsJDProducts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestModelsTBProducts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
