@@ -1,18 +1,16 @@
 package com.thoughtworks.pact.consumer;
 
 /**
- * Created by pingzhu on 5/13/16.
+ * Created by pingzhu on 5/17/16.
  */
 
-import au.com.dius.pact.consumer.Pact;
-import au.com.dius.pact.consumer.PactProviderRule;
-import au.com.dius.pact.consumer.PactVerification;
+import au.com.dius.pact.consumer.*;
 import au.com.dius.pact.consumer.dsl.PactDslWithProvider;
 import au.com.dius.pact.model.PactFragment;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.thoughtworks.pact.brands.BrandsClient;
-import com.thoughtworks.pact.models.ModelsClient;
+import com.thoughtworks.pact.JDProducts.JDProductsClient;
+import com.thoughtworks.pact.TBProducts.TBProductsClient;
 import junit.framework.TestCase;
 import org.junit.Rule;
 import org.junit.Test;
@@ -21,10 +19,10 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ConsumerTestModels {
+public class ConsumerTestBrandsTBProducts {
 
-    private static final String URL = "http://localhost:8010";
-    private static String expectbody = "{\"Data\":[{\"provider\": \"京东\",\"brand\": \"神舟\",\"model\": \" 战神K610D-i7 D2\",\"price\": 3469.0},{\"provider\": \"淘宝\",\"brand\": \"神舟\",\"model\": \"战神 K650D-I5 D2\",\"price\": 3076.0}]}";
+    private static final String URL = "http://localhost:6003";
+    private static String expectbody = "{\"products\": [{\"brand\": \"\u8054\u60f3\",\"model\": \"\u5c0f\u65b0Air\",\"price\": 6999}],\"provider\": \"\u4eac\u4e1c\"}";
 
     private JsonNode expectbodyjson() {
 
@@ -45,18 +43,18 @@ public class ConsumerTestModels {
     }
 
     @Rule
-    public PactProviderRule provider = new PactProviderRule("models_provider", "localhost", 8010, this);
+    public PactProviderRule provider = new PactProviderRule("tb_products_provider", "localhost", 6003, this);
 
-    @Pact(provider="models_provider", consumer="models_consumer")
+    @Pact(provider="tb_products_provider", consumer="tb_products_consumer")
     public PactFragment createFragment(PactDslWithProvider builder) {
         Map<String, String> headers = new HashMap<>();
         //headers.put("Content-Type", "application/json;charset=UTF-8");
-        headers.put("Content-Type", "text/plain;charset=UTF-8");
+        headers.put("Content-Type", "application/json");
 
         return builder
                 .given("test_state")
-                .uponReceiving("a_request_for_Models")
-                .path("/api/mod=战神")
+                .uponReceiving("a_request_for_jd_products")
+                .path("/products")
                 .method("GET")
                 .willRespondWith()
                 .headers(headers)
@@ -66,9 +64,9 @@ public class ConsumerTestModels {
     }
 
     @Test
-    @PactVerification("models_provider")
+    @PactVerification("tb_products_provider")
     public void runTest() {
-        TestCase.assertEquals(new ModelsClient(URL + "/api/mod=战神").models(), expectbody);
-
+        TestCase.assertEquals(new TBProductsClient(URL + "/products").products(), expectbodyjson());
     }
 }
+

@@ -4,9 +4,12 @@ package com.thoughtworks.pact.consumer;
  * Created by pingzhu on 5/13/16.
  */
 
-import au.com.dius.pact.consumer.*;
-import au.com.dius.pact.model.PactFragment;
+import au.com.dius.pact.consumer.Pact;
+import au.com.dius.pact.consumer.PactProviderRule;
+import au.com.dius.pact.consumer.PactVerification;
+import au.com.dius.pact.consumer.dsl.PactDslJsonBody;
 import au.com.dius.pact.consumer.dsl.PactDslWithProvider;
+import au.com.dius.pact.model.PactFragment;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.thoughtworks.pact.brands.BrandsClient;
@@ -18,9 +21,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import static junit.framework.TestCase.assertEquals;
-
-public class ConsumerTestBrands {
+public class ConsumerTestAppBrandsDsl {
 
     private static final String URL = "http://localhost:8000";
     private static String expectbody = "{\"Data\":[{\"provider\": \"京东\",\"brand\": \"神舟\",\"model\": \" 战神K610D-i7 D2\",\"price\": 3469.0},{\"provider\": \"淘宝\",\"brand\": \"神舟\",\"model\": \"战神 K650D-I5 D2\",\"price\": 3076.0}]}";
@@ -34,6 +35,14 @@ public class ConsumerTestBrands {
         //headers.put("Content-Type", "application/json;charset=UTF-8");
         headers.put("Content-Type", "text/plain;charset=UTF-8");
 
+        PactDslJsonBody body = new PactDslJsonBody()
+                .stringType("name", "pactdslname")
+                .booleanType("happy")
+                //.putArray(expectbody)
+                .ipAddress("localAddress")
+                .numberValue("age", 100);
+
+
         return builder
                 .given("test_state")
                 .uponReceiving("a_request_for_Brands")
@@ -42,7 +51,8 @@ public class ConsumerTestBrands {
                 .willRespondWith()
                     .headers(headers)
                     .status(200)
-                    .body(expectbody)
+                    .body(body)
+                    //.body(expectbody)
                 .toFragment();
     }
 

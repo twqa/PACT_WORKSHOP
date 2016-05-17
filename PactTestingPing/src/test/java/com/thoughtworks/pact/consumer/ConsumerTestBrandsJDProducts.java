@@ -5,12 +5,11 @@ package com.thoughtworks.pact.consumer;
  */
 
 import au.com.dius.pact.consumer.*;
-import au.com.dius.pact.consumer.dsl.PactDslWithProvider;
 import au.com.dius.pact.model.PactFragment;
+import au.com.dius.pact.consumer.dsl.PactDslWithProvider;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.thoughtworks.pact.JDProducts.JDProductsClient;
-import com.thoughtworks.pact.TBProducts.TBProductsClient;
 import junit.framework.TestCase;
 import org.junit.Rule;
 import org.junit.Test;
@@ -19,7 +18,9 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ConsumerTestTBProducts {
+import static junit.framework.TestCase.assertEquals;
+
+public class ConsumerTestBrandsJDProducts {
 
     private static final String URL = "http://localhost:6003";
     private static String expectbody = "{\"products\": [{\"brand\": \"\u8054\u60f3\",\"model\": \"\u5c0f\u65b0Air\",\"price\": 6999}],\"provider\": \"\u4eac\u4e1c\"}";
@@ -43,9 +44,9 @@ public class ConsumerTestTBProducts {
     }
 
     @Rule
-    public PactProviderRule provider = new PactProviderRule("tb_products_provider", "localhost", 6003, this);
+    public PactProviderRule provider = new PactProviderRule("jd_products_provider", "localhost", 6003, this);
 
-    @Pact(provider="tb_products_provider", consumer="tb_products_consumer")
+    @Pact(provider="jd_products_provider", consumer="jd_products_consumer")
     public PactFragment createFragment(PactDslWithProvider builder) {
         Map<String, String> headers = new HashMap<>();
         //headers.put("Content-Type", "application/json;charset=UTF-8");
@@ -64,9 +65,9 @@ public class ConsumerTestTBProducts {
     }
 
     @Test
-    @PactVerification("tb_products_provider")
+    @PactVerification("jd_products_provider")
     public void runTest() {
-        TestCase.assertEquals(new TBProductsClient(URL + "/products").products(), expectbodyjson());
+        TestCase.assertEquals(new JDProductsClient(URL + "/products").products(), expectbodyjson());
     }
 }
 

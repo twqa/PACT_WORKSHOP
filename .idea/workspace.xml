@@ -2,11 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="724f1849-8dc1-48ef-949a-98afd5deb037" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/cache.properties.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/fileHashes.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/cache.properties.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/fileHashes.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/fileSnapshots.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/outputFileStates.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/taskArtifacts.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/JDProducts/JDProductsClient$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/JDProducts/JDProductsClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/TBProducts/TBProductsClient$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/TBProducts/TBProductsClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/brands/BrandsClient$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/brands/BrandsClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/brands/ConsumerClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestBrands.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestBrandsDsl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestJDProducts.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestModels.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestTBProducts.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/models/ModelsClient$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/models/ModelsClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/provider/ProviderTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/gradle/wrapper/gradle-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/cache.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/cache.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build/resources/test/pacts/brands_consumer-brands_provider.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build/resources/test/pacts/brands_consumer-jd_products.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/build/resources/test/pacts/models_consumer-models_provider.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/gradlew" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/gradlew.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/settings.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/JDProducts/JDProductsClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/brands/BrandsClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/brands/ConsumerClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrandsDsl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppModels.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsJDProducts.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/models/ModelsClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/provider/ProviderTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/resources/pacts/brands_consumer-brands_provider.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/resources/pacts/brands_consumer-jd_products.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/resources/pacts/models_consumer-models_provider.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/target/pacts/brands_consumer-brands_provider.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/target/pacts/jd_products_consumer-jd_products_provider.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/target/pacts/models_consumer-models_provider.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/target/pacts/tb_products_consumer-tb_products_provider.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/target/pacts/test_consumer-test_provider.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_11.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrands.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsDsl.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrandsDsl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestJDProducts.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsJDProducts.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestModels.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppModels.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestTBProducts.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsTBProducts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/PactTestingPing.iml" afterPath="$PROJECT_DIR$/.idea/modules/PactTestingPing.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/PactTestingPing_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/PactTestingPing_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/PactTestingPing_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/PactTestingPing_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestTBProducts.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestTBProducts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.idea/modules/PactTestingPing.iml" afterPath="$PROJECT_DIR$/PactTestingPing/.idea/modules/PactTestingPing.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.idea/vcs.xml" afterPath="$PROJECT_DIR$/PactTestingPing/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/PactTestingPing/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brand-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/brand-server/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/model-server/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/webapp/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTestModels.html" afterPath="$PROJECT_DIR$/webapp/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTestModels.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/build/reports/tests/index.html" afterPath="$PROJECT_DIR$/webapp/build/reports/tests/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/build/reports/tests/packages/com.thoughtworks.pact.consumer.html" afterPath="$PROJECT_DIR$/webapp/build/reports/tests/packages/com.thoughtworks.pact.consumer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTestModels.xml" afterPath="$PROJECT_DIR$/webapp/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTestModels.xml" />
     </list>
     <list id="f3812e04-c26d-458c-abc3-36bbf84059bc" name="Failed commit: Default" comment="pact workshop - ping sample code">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/.idea/compiler.xml" />
@@ -143,7 +215,20 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="PactTestingPing" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+            </PATH>
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -152,11 +237,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConsumerTestTBProducts.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestTBProducts.java">
+      <file leaf-file-name="ConsumerTestBrandsTBProducts.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsTBProducts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+            <state relative-caret-position="225">
+              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -214,7 +299,11 @@
                 <option name="name" value="classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
+                <option name="description" value="Verify your pacts against your providers" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PactTestingPing" />
+                <option name="name" value="pactVerify" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PactTestingPing" />
                 <option name="name" value="wrapper" />
               </ExternalTaskPojo>
@@ -249,6 +338,11 @@
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Publish your pacts to a pact broker" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PactTestingPing" />
+                <option name="name" value="pactPublish" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Initializes a new Gradle build. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PactTestingPing" />
                 <option name="name" value="init" />
@@ -257,6 +351,20 @@
                 <option name="description" value="Runs the unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PactTestingPing" />
                 <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PactTestingPing" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PactTestingPing" />
+                <option name="name" value="bootRepackage" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run the project with support for auto-detecting main class and reloading static resources" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PactTestingPing" />
+                <option name="name" value="bootRun" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
@@ -309,9 +417,23 @@
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PactTestingPing" />
+                <option name="name" value="findMainClass" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PactTestingPing" />
                 <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Verify the pacts against foo_provider2" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PactTestingPing" />
+                <option name="name" value="pactVerify_foo_provider2" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Verify the pacts against foo_provider1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PactTestingPing" />
+                <option name="name" value="pactVerify_foo_provider1" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'PactTestingPing'." />
@@ -325,7 +447,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/PactTestingPing" value="2926926462000" />
+        <entry key="$PROJECT_DIR$/PactTestingPing" value="2926927245000" />
         <entry key="$PROJECT_DIR$/../cdqa-community/Workshop-MAY-2016/brand-server" value="2925565030000" />
         <entry key="$PROJECT_DIR$/../cdqa-community/Workshop-MAY-2016/model-server" value="2925565030000" />
         <entry key="$PROJECT_DIR$/../cdqa-community/Workshop-MAY-2016/webapp" value="2925565030000" />
@@ -342,6 +464,118 @@
                   <entry key="$PROJECT_DIR$/PactTestingPing">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.3.0.RELEASE/938568505fd0cb936fd35b0e8771b5d86114a8e1/spring-boot-gradle-plugin-1.3.0.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.3.0.RELEASE/3820073c074989919c7daa004556f8102b91fee1/spring-boot-gradle-plugin-1.3.0.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.dius/pact-jvm-provider-gradle_2.11/3.2.6/d19dceab796cf625be98e215c81ecaf2e2b5c973/pact-jvm-provider-gradle_2.11-3.2.6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.dius/pact-jvm-provider-gradle_2.11/3.2.6/419dde96fc998b00e0f56a07732ab6cfcb061a05/pact-jvm-provider-gradle_2.11-3.2.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.3.0.RELEASE/208c948ac0de9353b5f36e9687ae535a9199606b/spring-boot-loader-tools-1.3.0.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.3.0.RELEASE/bd1de3bbb6146a0cf5138aa9b601f133d4e7a88a/spring-boot-loader-tools-1.3.0.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/0.5.2.RELEASE/a161232eece113ea029a1803a1e7328ce1502e48/dependency-management-plugin-0.5.2.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/0.5.2.RELEASE/f90777e7785259bb91811619b2b2b5d9f071ef39/dependency-management-plugin-0.5.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.scala-logging/scala-logging_2.11/3.1.0/77fc4aedf282d929c95bbb9ad2b8f904a7249eed/scala-logging_2.11-3.1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.scala-logging/scala-logging_2.11/3.1.0/134d96ef46da35dbab455eb223255cf31d834a33/scala-logging_2.11-3.1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.7/ec2cbcc439acd601f64e192607ca353fe61d73d9/scala-compiler-2.11.7-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.7/1454c21d39a4d991006a2a47c164f675ea1dafaf/scala-compiler-2.11.7.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.dius/pact-jvm-provider_2.11/3.2.6/7434ea98ba1edbbcae96fd09a2318b22ec2aeb84/pact-jvm-provider_2.11-3.2.6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.dius/pact-jvm-provider_2.11/3.2.6/ed5fcef3bae1ea0bc1a6ccad9d03cf2a61a140f3/pact-jvm-provider_2.11-3.2.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.11/2f0e4b53b6b0eec426dad7118bf54b3deb58000b/jansi-1.11-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.11/655c643309c2f45a56a747fda70e3fadf57e9f11/jansi-1.11.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy.modules.http-builder/http-builder/0.7.1/a7396f0103337835621526d95021afc06c65c7b2/http-builder-0.7.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy.modules.http-builder/http-builder/0.7.1/a21771ae3da5ce9f5c4d7a60c1e716666aa2acf9/http-builder-0.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/acd62e31cc314266e73eebed0b6dd7ea974a0ed/slf4j-api-1.7.7-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/2b8019b6249bb05d81d3a3094e468753e2b21311/slf4j-api-1.7.7.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/b3cf65e92414af4ce51ad3507147cc9f31fd708c/scala-library-2.11.7-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.3.RELEASE/20ed33f924eb214e5600da3b93cb46289891dc01/spring-core-4.2.3.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.3.RELEASE/3ed00dad7a16b2a28df9348294f6a67151f43cf6/spring-core-4.2.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.7/c4d5a9d0a7a6956720809bcebca1b2fe978e5dc6/scala-reflect-2.11.7-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.7/bf1649c9d33da945dea502180855b56caf06288c/scala-reflect-2.11.7.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.4/eb417145240036662d65c1c42598089b9d15d634/scala-xml_2.11-1.0.4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.4/b67c76af885ba3323ce51bbed4c9232f4bd5d8fd/scala-xml_2.11-1.0.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/2c66955d5543265eb450de4e9ec7ac467d94be54/scala-parser-combinators_2.11-1.0.4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/7369d653bcfa95d321994660477a4d7e81d7f490/scala-parser-combinators_2.11-1.0.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.java-diff-utils/diffutils/1.3.0/90b4aaa9530827fe6ad2b6684389c86999e861a3/diffutils-1.3.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.java-diff-utils/diffutils/1.3.0/7e060dd5b19431e6d198e91ff670644372f60fbd/diffutils-1.3.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.1/c0ecd55724129bbd48850314b4ff8a360d670662/httpclient-4.5.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.1/7e3cecc566df91338c6c67883b89ddd05a17db43/httpclient-4.5.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/f2d8698c46d1167ff24b06a840a87d91a02db891/commons-io-2.4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.dius/pact-jvm-matchers_2.11/3.2.6/97d404a91241e307a8f4411286d925be9eba8c33/pact-jvm-matchers_2.11-3.2.6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.dius/pact-jvm-matchers_2.11/3.2.6/2f9f5fe0448348314bea1a5292bff2f79519d3e7/pact-jvm-matchers_2.11-3.2.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.11/2.2.1/d8699d7d05c84970d79856a1b1512eb5b7670bb3/scalatest_2.11-2.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.11/2.2.1/c60cda0186a96c61aed4983a3598c7c835074038/scalatest_2.11-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.4.6/fd2c46e38f8b08e4ec69badf3cd2b2cc436f628f/groovy-all-2.4.6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.4.6/478feadca929a946b2f1fb962bb2179264759821/groovy-all-2.4.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.4.6/36a422446818a73342ff6c49d857e51a34b7b214/groovy-all-2.4.6-indy.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reflections/reflections/0.9.10/606b8587dab0bf1776b896003f2a2fa0470bb105/reflections-0.9.10-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reflections/reflections/0.9.10/c7f4ea230aedc757ca1499ebcfb2953c81cf8b67/reflections-0.9.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.dius/pact-jvm-model_2.11/3.2.6/946db965a75cef50a313894c8351b96df1c9d180/pact-jvm-model_2.11-3.2.6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/au.com.dius/pact-jvm-model_2.11/3.2.6/cdbe15a684acefa10d957ad2bd509f404d9bc6cc/pact-jvm-model_2.11-3.2.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.3/b972b5dfd2db7d41d76a6fc5445852522a136e2e/httpcore-4.4.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.3/e876a79d561e5c6207b78d347e198c8c4531a5e5/httpcore-4.4.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/3f15fff45d57656685abfee9e8302bf14580044c/commons-codec-1.9-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.gatling/jsonpath_2.11/0.6.4/8303164c162a361bb923478f3b254af630bab871/jsonpath_2.11-0.6.4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.gatling/jsonpath_2.11/0.6.4/cbbb9b25346aa04d2bcc4f6ba56f12bc31faf2a5/jsonpath_2.11-0.6.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/d2a489573c0ed2c4942b3660decad5d65087b406/commons-lang3-3.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.2-GA/7163084913aa7399e4ce2cbc3ee5c00ac2b1f35f/javassist-3.18.2-GA-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.2-GA/1180a90fbad732b60fb728a6bbe8fcb3151423d7/javassist-3.18.2-GA.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/annotations/2.0.1/9ef6656259841cebfb9fb0697bb122ada4485498/annotations-2.0.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.databinder/unfiltered-netty-server_2.11/0.8.2/4a44de8aef8feb2f463be5364889d287877f78f7/unfiltered-netty-server_2.11-0.8.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.databinder/unfiltered-netty-server_2.11/0.8.2/ecdbd5ef7eceee78a18212ee5c9e363b95d005cd/unfiltered-netty-server_2.11-0.8.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.json/json/20140107/f53f91bc9c21fef71745450dea5200e423e38370/json-20140107-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.json/json/20140107/d1ffca6e2482b002702c6a576166fd685e3370e3/json-20140107.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.databinder.dispatch/dispatch-core_2.11/0.11.3/cdf964d6383c0132db9cd39683fe456aced178cd/dispatch-core_2.11-0.11.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.databinder.dispatch/dispatch-core_2.11/0.11.3/f03187b23a4197d9ccb539f95c13db51adda010/dispatch-core_2.11-0.11.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.zafarkhaja/java-semver/0.9.0/38d5bf2aa1204792794489a0e2c4c19548bc35c1/java-semver-0.9.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.zafarkhaja/java-semver/0.9.0/59a83ca73c72a5e25b3f0b1bb305230a11000329/java-semver-0.9.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.databinder/unfiltered-netty_2.11/0.8.2/e247e22e8f226a42f240c8d2e8422c0e1e49dd1d/unfiltered-netty_2.11-0.8.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.databinder/unfiltered-netty_2.11/0.8.2/bd28039eed5a2aa232ab798edab8fb3673babd82/unfiltered-netty_2.11-0.8.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.databinder/unfiltered-util_2.11/0.8.2/f31d5acb1d3c44dadc40ed2869530ebc6d84ad40/unfiltered-util_2.11-0.8.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.databinder/unfiltered-util_2.11/0.8.2/41af9e0659c927a60f3221dba0640b26ba39b6c2/unfiltered-util_2.11-0.8.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.json-lib/json-lib/2.3/f35340c0a0380141f62c72b76c8fb4bfa638d8c1/json-lib-2.3-jdk15.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.nekohtml/nekohtml/1.9.16/2d40ea21fae95418331ddc66efb6744a38bf59a/nekohtml-1.9.16-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.nekohtml/nekohtml/1.9.16/61e35204e5a8fdb864152f84e2e3b33ab56f50ab/nekohtml-1.9.16.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-resolver/xml-resolver/1.2/6b72432ea1c5296783007365bb7c9a6b39dfb730/xml-resolver-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-resolver/xml-resolver/1.2/3d0f97750b3a03e0971831566067754ba4bfd68c/xml-resolver-1.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ning/async-http-client/1.9.11/f37a58221c41687e2e5483b60627e182faaaeb7a/async-http-client-1.9.11-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ning/async-http-client/1.9.11/489495ebd61cc7887116c44d96e3e89fdfb6d04f/async-http-client-1.9.11.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.databinder/unfiltered_2.11/0.8.2/d797ee94baf53695e24b3e6f64ea9167df80efb/unfiltered_2.11-0.8.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.databinder/unfiltered_2.11/0.8.2/af624a8089b76e735b3f80b80f454164c7417d0/unfiltered_2.11-0.8.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.0.23.Final/203c3d106ce24c1587db57c62d41edeca7d0f5aa/netty-codec-http-4.0.23.Final-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.0.23.Final/83d273abc73d1e9c8649402b3cecc6e22308c532/netty-codec-http-4.0.23.Final.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/2818502bbb50bbcbd3f57e92a2bfe4d496f37688/commons-beanutils-1.8.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/c651d5103c649c12b20d53731643e5fffceb536/commons-beanutils-1.8.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/fa095ef874374e5b2a11f8b06c26a5d68c7cb3a4/commons-collections-3.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/2b8c4b3035e45520ef42033e823c7d33e4b4402c/commons-lang-2.4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/16313e02a793435009f1e458fa4af5d879f6fb11/commons-lang-2.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.ezmorph/ezmorph/1.0.6/298992280d62b944afd0ae9bfe3329f5487dd434/ezmorph-1.0.6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.ezmorph/ezmorph/1.0.6/1e55d2a0253ea37745d33062852fd2c90027432/ezmorph-1.0.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xerces/xercesImpl/2.9.1/7bc7e49ddfe4fb5f193ed37ecc96c12292c8ceb6/xercesImpl-2.9.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.10.0.Final/f14c9e165c71e08dcd79eddef48dd39b84e6462c/netty-3.10.0.Final-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.10.0.Final/ad61cd1bba067e6634ddd3e160edf0727391ac30/netty-3.10.0.Final.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.0.23.Final/199f2e006eeb12fb5c4296d464f5edd280338c68/netty-codec-4.0.23.Final-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.0.23.Final/37b0314587ecf7d5d1531d9beb2bca698467b9df/netty-codec-4.0.23.Final.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.0.23.Final/84deae98fa80aaad8cc1162c36f10e556f0fc29f/netty-handler-4.0.23.Final-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.0.23.Final/11097de30248a7dd4f4461b0f02da3bdbce87d0d/netty-handler-4.0.23.Final.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.3.04/d89105ccbe3fd823865330fd964233baf2b53e88/xml-apis-1.3.04-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.3.04/90b215f48fe42776c8c7f6e3509ec54e84fd65ef/xml-apis-1.3.04.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.0.23.Final/1a54ba6d10b28b271ae6c9c29490d03578c05a12/netty-transport-4.0.23.Final-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.0.23.Final/e9b853d6276c5c724410fe15b70935deac9aa26d/netty-transport-4.0.23.Final.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.0.23.Final/60e20503f9d529b21103d468d2c50e0279079a38/netty-buffer-4.0.23.Final-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.0.23.Final/f4c308852b6b0f554c85fcaa00e994549ebee1b8/netty-buffer-4.0.23.Final.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.0.23.Final/a607b570e0cfd141a556d9363524f96bd7c5430f/netty-common-4.0.23.Final-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.0.23.Final/42cc6d09d43b1437ed61ca09abb0b4b4be015920/netty-common-4.0.23.Final.jar" />
+                          </list>
+                        </option>
                         <option name="path" value="$PROJECT_DIR$/PactTestingPing" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -429,6 +663,7 @@
         <option value="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/TBProducts/TBProductsClient.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestTBProducts.java" />
+        <option value="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsTBProducts.java" />
       </list>
     </option>
   </component>
@@ -475,8 +710,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -683,13 +918,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PactTestingPing/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1149,6 +1384,8 @@
       <workItem from="1463463161710" duration="1743000" />
       <workItem from="1463465089433" duration="980000" />
       <workItem from="1463466090689" duration="1357000" />
+      <workItem from="1463469107039" duration="11000" />
+      <workItem from="1463469389039" duration="147000" />
     </task>
     <task id="LOCAL-00001" summary="added package TBProducts">
       <created>1463466823386</created>
@@ -1168,11 +1405,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7830000" />
+    <option name="totallyTimeSpent" value="7988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1183,12 +1420,15 @@
       <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5503448" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36388507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7099863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29399142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1509299" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29399142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1509299" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1200,7 +1440,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1227,7 +1466,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PactTestingPing/.idea/.gitignore">
+    <entry file="file://$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsTBProducts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1235,11 +1474,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/build.gradle">
+    <entry file="file://$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsTBProducts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PactTestingPing/.idea/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/webapp/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1297,7 +1544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1327,7 +1573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,14 +1584,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PactTestingPing/.idea/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PactTestingPing/.idea/.gitignore" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1360,7 +1598,7 @@
         <state relative-caret-position="310">
           <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1370,15 +1608,15 @@
         <state relative-caret-position="145">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestTBProducts.java">
+    <entry file="file://$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsTBProducts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+        <state relative-caret-position="225">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding />
         </state>
       </provider>
