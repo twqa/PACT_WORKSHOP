@@ -46,82 +46,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumerdsl/ConsumerTestBrandsJDProductsDsl.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/models/ModelsClient.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/provider/ProviderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/src/test/java/com/thoughtworks/pact/brands/BrandsClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__net_sf_json_lib_json_lib_2_3_jdk15.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PactTesting/.idea/libraries/Gradle__org_codehaus_groovy_groovy_all_2_4_6_indy.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestAppBrandsDsl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestBrands.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestBrandsDsl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestJDProducts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestModels.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestTBProducts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PactTestingPing/build/resources/test/pacts/brands_consumer-brands_provider.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PactTestingPing/build/resources/test/pacts/brands_consumer-jd_products.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PactTestingPing/build/resources/test/pacts/models_consumer-models_provider.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PactTestingPing/target/pacts/app_consumer-models_provider.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PactTestingPing/target/pacts/brands_consumer-brands_provider.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PactTestingPing/target/pacts/brands_consumer-tb_products_provider.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PactTestingPing/target/pacts/models_consumer-jd_products_provider.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PactTestingPing/target/pacts/models_consumer-models_provider.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PactTestingPing/target/pacts/models_consumer-tb_products_provider.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PactTestingPing/target/pacts/test_consumer-test_provider.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__com_google_guava_guava_15_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__net_sf_json_lib_json_lib_jdk15_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__org_apache_httpcomponents_fluent_hc_4_5_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/.idea/libraries/Gradle__org_codehaus_groovy_groovy_all_indy_2_4_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/.idea/modules/name-parser_main.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/.idea/modules/name-parser_test.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestBrands.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestModels.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/classes/production/name-parser/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/classes/production/name-parser/templates/hello.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/src/test/java/com/thoughtworks/pact/brands/Brands.java" afterPath="" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestTBProducts.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsTBProducts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestBrandsJDProducts.class" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestBrandsJDProducts.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/webapp/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/webapp/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/webapp/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/webapp/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.gradle/2.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/webapp/.gradle/2.9/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.gradle/2.9/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/webapp/.gradle/2.9/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.gradle/2.9/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/webapp/.gradle/2.9/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.gradle/2.9/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/webapp/.gradle/2.9/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.gradle/2.9/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/webapp/.gradle/2.9/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/build/classes/main/com/server/model/DataProvider.class" afterPath="$PROJECT_DIR$/webapp/build/classes/main/com/server/model/DataProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/build/test-results/binary/test/output.bin" afterPath="$PROJECT_DIR$/webapp/build/test-results/binary/test/output.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/build/test-results/binary/test/output.bin.idx" afterPath="$PROJECT_DIR$/webapp/build/test-results/binary/test/output.bin.idx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/build/test-results/binary/test/results.bin" afterPath="$PROJECT_DIR$/webapp/build/test-results/binary/test/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTesting/.idea/compiler.xml" afterPath="$PROJECT_DIR$/PactTesting/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTesting/.idea/gradle.xml" afterPath="$PROJECT_DIR$/PactTesting/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTesting/.idea/modules.xml" afterPath="$PROJECT_DIR$/PactTesting/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTesting/.idea/workspace.xml" afterPath="$PROJECT_DIR$/PactTesting/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.idea/gradle.xml" afterPath="$PROJECT_DIR$/PactTestingPing/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build.gradle" afterPath="$PROJECT_DIR$/PactTestingPing/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brand-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/brand-server/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/model-server/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.idea/compiler.xml" afterPath="$PROJECT_DIR$/webapp/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.idea/gradle.xml" afterPath="$PROJECT_DIR$/webapp/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.idea/misc.xml" afterPath="$PROJECT_DIR$/webapp/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.idea/modules.xml" afterPath="$PROJECT_DIR$/webapp/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.idea/modules/name-parser.iml" afterPath="$PROJECT_DIR$/webapp/.idea/modules/name-parser.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/webapp/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/build.gradle" afterPath="$PROJECT_DIR$/webapp/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTest.html" afterPath="$PROJECT_DIR$/webapp/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/build/reports/tests/index.html" afterPath="$PROJECT_DIR$/webapp/build/reports/tests/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/build/reports/tests/packages/com.thoughtworks.pact.consumer.html" afterPath="$PROJECT_DIR$/webapp/build/reports/tests/packages/com.thoughtworks.pact.consumer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/build/resources/main/application.yml" afterPath="$PROJECT_DIR$/webapp/build/resources/main/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTest.xml" afterPath="$PROJECT_DIR$/webapp/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTest.xml" />
     </list>
     <list id="f3812e04-c26d-458c-abc3-36bbf84059bc" name="Failed commit: Default" comment="pact workshop - ping sample code">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/.idea/compiler.xml" />
@@ -330,7 +255,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -397,24 +324,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsumerTestAppBrands.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConsumerTestAppBrands.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webapp/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
+            <state relative-caret-position="397">
               <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsumerClient.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/brands/ConsumerClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -422,7 +337,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/PactTestingPing" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -1187,6 +1102,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="consumerdsl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PACT_WORKSHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PACT_WORKSHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PactTestingPing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="consumer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1783,7 +1732,7 @@
       <workItem from="1463466090689" duration="1357000" />
       <workItem from="1463469107039" duration="11000" />
       <workItem from="1463469389039" duration="5165000" />
-      <workItem from="1463551579147" duration="158000" />
+      <workItem from="1463551579147" duration="345000" />
     </task>
     <task id="LOCAL-00001" summary="added package TBProducts">
       <created>1463466823386</created>
@@ -1814,15 +1763,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13164000" />
+    <option name="totallyTimeSpent" value="13351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43484226" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43484226" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
@@ -1831,10 +1780,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5503448" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11683168" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37585735" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35121602" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26967096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1509299" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17453505" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1891,7 +1840,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2159,14 +2110,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/src/test/java/com/thoughtworks/pact/brands/Brands.java" />
-    <entry file="file://$PROJECT_DIR$/webapp/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2195,7 +2138,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2235,11 +2180,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/brands/ConsumerClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="-930">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

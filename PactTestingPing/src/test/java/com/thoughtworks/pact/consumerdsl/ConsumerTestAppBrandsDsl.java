@@ -43,24 +43,16 @@ public class ConsumerTestAppBrandsDsl {
                 .willRespondWith()
                     .headers(headers)
                     .status(200)
-                    /*.body(
-                        new PactDslJsonBody()
-                                .minArrayLike("Data", 1, 2)
-                                        .stringValue("provider", "京东")
-                                        .stringValue("brand", "神舟")
-                                        .stringMatcher("model", "战神\\d+", "战神123456")
-                                        .numberValue("price", 12345.0)
-                                    .closeObject()
-                                .closeArray()
-
-                            *//*.object("Data")
-                                .stringValue("provider", "dddd")
-                                .stringValue("brand", "John")
-                                //.stringValue("model", "Smith")
-                                .stringMatcher("model", "ORDER_ID_\\d+", "ORDER_ID_123456")
-                                .numberValue("price", 12345.0)
-                            .closeObject()*//*
-                    )*/
+//                    .body(
+//                        new PactDslJsonBody()
+//                            .object("Data")
+//                                .stringValue("provider", "dddd")
+//                                .stringValue("brand", "John")
+//                                //.stringValue("model", "Smith")
+//                                .stringMatcher("model", "ORDER_ID_\\d+", "ORDER_ID_123456")
+//                                .numberValue("price", 12345.0)
+//                            .closeObject()
+//                    )
                     .body(expectbody)
                 .toFragment();
     }
@@ -68,12 +60,8 @@ public class ConsumerTestAppBrandsDsl {
     @Test
     @PactVerification("brands_provider")
     public void runTest() {
-        //TestCase.assertEquals(new BrandsClient(URL + "/api/brand=神舟").brands(), Arrays.asList(new Brands(), new Brands(), new Brands(), new Brands()));
+
         TestCase.assertEquals(new BrandsClient(URL + "/api/brand=神舟").brands(), expectbody);
 
-        /*Map expectedResponse = new HashMap();
-        expectedResponse.put("price", 42);
-        Assert.assertEquals(new BrandsClient(URL + "/api/brand=神舟").brands(), expectedResponse);
-        */
     }
 }

@@ -22,9 +22,9 @@
                 "body": {
                     "products": [
                         {
-                            "brand": "uTgkKpFEkPUzBxzUlqYj",
-                            "model": "\u5c0f\u65b0Air",
-                            "price": 113432687
+                            "brand": "VvNJLedEsnVHLRLUOyRp",
+                            "model": "\u5c0f\u65b0",
+                            "price": 189520563
                         }
                     ],
                     "provider": "\u4eac\u4e1c"
@@ -36,11 +36,14 @@
                     "$.body.provider": {
                         "regex": "\u4eac\u4e1c\\d*"
                     },
+                    "$.body.products[*].model": {
+                        "regex": "\u5c0f\u65b0\\w*"
+                    },
                     "$.body.products[*].brand": {
                         "match": "type"
                     },
                     "$.body.products": {
-                        "min": 22,
+                        "min": 1,
                         "match": "type"
                     }
                 }
