@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PactTesting.iml" filepath="$PROJECT_DIR$/.idea/modules/PactTesting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PactTesting_main.iml" filepath="$PROJECT_DIR$/.idea/modules/PactTesting_main.iml" group="PactTesting" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PactTesting_test.iml" filepath="$PROJECT_DIR$/.idea/modules/PactTesting_test.iml" group="PactTesting" />
     </modules>
   </component>
 </project>

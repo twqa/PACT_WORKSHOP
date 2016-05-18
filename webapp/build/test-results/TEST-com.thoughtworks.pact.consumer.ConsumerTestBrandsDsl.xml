@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thoughtworks.pact.consumer.ConsumerTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2016-05-17T09:22:27" hostname="CNpingzhu.local" time="0.593">
+<testsuite name="com.thoughtworks.pact.consumer.ConsumerTestBrandsDsl" tests="1" skipped="0" failures="1" errors="0" timestamp="2016-05-17T09:22:28" hostname="CNpingzhu.local" time="0.122">
   <properties/>
-  <testcase name="runTest" classname="com.thoughtworks.pact.consumer.ConsumerTest" time="0.593">
-    <failure message="java.lang.NoClassDefFoundError: org/apache/http/client/fluent/Request" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/apache/http/client/fluent/Request
-	at com.thoughtworks.pact.brands.ConsumerClient.options(ConsumerClient.java:80)
-	at com.thoughtworks.pact.consumer.ConsumerTest.runTest(ConsumerTest.java:61)
+  <testcase name="runTest" classname="com.thoughtworks.pact.consumer.ConsumerTestBrandsDsl" time="0.122">
+    <failure message="junit.framework.ComparisonFailure: expected:&lt;{&quot;[hexCode&quot;:&quot;765fb06243&quot;,&quot;localAddress&quot;:&quot;127.0.0.1&quot;,&quot;happy&quot;:true,&quot;name&quot;:&quot;pactdslname&quot;,&quot;age&quot;:100,&quot;timestamp&quot;:&quot;2016-05-17T17:22:28&quot;]}&gt; but was:&lt;{&quot;[Data&quot;:[{&quot;provider&quot;: &quot;京东&quot;,&quot;brand&quot;: &quot;神舟&quot;,&quot;model&quot;: &quot; 战神K610D-i7 D2&quot;,&quot;price&quot;: 3469.0},{&quot;provider&quot;: &quot;淘宝&quot;,&quot;brand&quot;: &quot;神舟&quot;,&quot;model&quot;: &quot;战神 K650D-I5 D2&quot;,&quot;price&quot;: 3076.0}]]}&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;{&quot;[hexCode&quot;:&quot;765fb06243&quot;,&quot;localAddress&quot;:&quot;127.0.0.1&quot;,&quot;happy&quot;:true,&quot;name&quot;:&quot;pactdslname&quot;,&quot;age&quot;:100,&quot;timestamp&quot;:&quot;2016-05-17T17:22:28&quot;]}&gt; but was:&lt;{&quot;[Data&quot;:[{&quot;provider&quot;: &quot;京东&quot;,&quot;brand&quot;: &quot;神舟&quot;,&quot;model&quot;: &quot; 战神K610D-i7 D2&quot;,&quot;price&quot;: 3469.0},{&quot;provider&quot;: &quot;淘宝&quot;,&quot;brand&quot;: &quot;神舟&quot;,&quot;model&quot;: &quot;战神 K650D-I5 D2&quot;,&quot;price&quot;: 3076.0}]]}&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:269)
+	at com.thoughtworks.pact.consumer.ConsumerTestBrandsDsl.runTest(ConsumerTestBrandsDsl.java:63)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -63,36 +65,31 @@
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: java.lang.ClassNotFoundException: org.apache.http.client.fluent.Request
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 60 more
 </failure>
   </testcase>
-  <system-out><![CDATA[17:22:27.794 [Test worker] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
-17:22:27.801 [Test worker] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
-17:22:27.810 [Test worker] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
-17:22:27.810 [Test worker] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-17:22:27.810 [Test worker] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-17:22:27.811 [Test worker] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
-17:22:27.821 [Test worker] DEBUG i.n.util.internal.PlatformDependent - UID: 501
-17:22:27.821 [Test worker] DEBUG i.n.util.internal.PlatformDependent - Java version: 8
-17:22:27.822 [Test worker] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
-17:22:27.822 [Test worker] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
-17:22:27.822 [Test worker] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
-17:22:27.904 [Test worker] DEBUG i.n.util.internal.PlatformDependent - Javassist: available
-17:22:27.905 [Test worker] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/w6/6b1srbtn72s5rh9zhp45q2x00000gn/T (java.io.tmpdir)
-17:22:27.905 [Test worker] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-17:22:27.905 [Test worker] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
-17:22:27.919 [Test worker] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
-17:22:27.919 [Test worker] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
-17:22:27.943 [Test worker] DEBUG i.n.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xbd228d75f71385ba (took 0 ms)
-17:22:27.974 [Test worker] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
-17:22:27.974 [Test worker] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
-17:22:27.978 [Test worker] DEBUG io.netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
-17:22:27.978 [Test worker] DEBUG io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+  <system-out><![CDATA[17:22:28.853 [Test worker] DEBUG o.s.web.client.RestTemplate - Created GET request for "http://localhost:8000/api/brand=%E7%A5%9E%E8%88%9F"
+17:22:28.853 [Test worker] DEBUG o.s.web.client.RestTemplate - Setting request Accept header to [text/plain, application/json, application/*+json, */*]
+17:22:28.856 [nioEventLoopGroup-7-1] DEBUG a.c.d.p.c.UnfilteredMockProvider - Received request: 	method: GET
+	path: /api/brand=神舟
+	query: [:]
+	headers: [Connection:keep-alive, Content-Length:0, Accept:text/plain, application/json, application/*+json, */*, User-Agent:Java/1.8.0_66, Host:localhost:8000]
+	matchers: null
+	body: au.com.dius.pact.model.OptionalBody(EMPTY, )
+17:22:28.857 [nioEventLoopGroup-7-1] DEBUG a.c.dius.pact.model.RequestMatching$ - comparing to expected request: 
+	method: GET
+	path: /api/brand=神舟
+	query: null
+	headers: [:]
+	matchers: [:]
+	body: au.com.dius.pact.model.OptionalBody(MISSING, null)
+17:22:28.860 [nioEventLoopGroup-7-1] DEBUG au.com.dius.pact.model.Matching$ - No matcher for text/plain, using equality
+17:22:28.860 [nioEventLoopGroup-7-1] DEBUG a.c.dius.pact.model.RequestMatching$ - Request mismatch: List()
+17:22:28.861 [nioEventLoopGroup-7-1] DEBUG a.c.d.p.c.UnfilteredMockProvider - Generating response: 	status: 200 
+	headers: [Content-Type:text/plain;charset=UTF-8] 
+	matchers: [$.body.happy:[match:type], $.body.hexCode:[regex:[0-9a-fA-F]+], $.body.name:[match:type], $.body.timestamp:[timestamp:yyyy-MM-dd'T'HH:mm:ss], $.body.localAddress:[regex:(\d{1,3}\.)+\d{1,3}]] 
+	body: au.com.dius.pact.model.OptionalBody(PRESENT, {"hexCode":"765fb06243","localAddress":"127.0.0.1","happy":true,"name":"pactdslname","age":100,"timestamp":"2016-05-17T17:22:28"})
+17:22:28.862 [Test worker] DEBUG o.s.web.client.RestTemplate - GET request for "http://localhost:8000/api/brand=%E7%A5%9E%E8%88%9F" resulted in 200 (OK)
+17:22:28.862 [Test worker] DEBUG o.s.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@3dc7fdd8]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

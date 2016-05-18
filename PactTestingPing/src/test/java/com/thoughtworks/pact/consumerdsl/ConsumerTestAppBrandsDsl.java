@@ -1,4 +1,4 @@
-package com.thoughtworks.pact.consumer;
+package com.thoughtworks.pact.consumerdsl;
 
 /**
  * Created by pingzhu on 5/13/16.
@@ -35,14 +35,6 @@ public class ConsumerTestAppBrandsDsl {
         //headers.put("Content-Type", "application/json;charset=UTF-8");
         headers.put("Content-Type", "text/plain;charset=UTF-8");
 
-        PactDslJsonBody body = new PactDslJsonBody()
-                .stringType("name", "pactdslname")
-                .booleanType("happy")
-                //.putArray(expectbody)
-                .ipAddress("localAddress")
-                .numberValue("age", 100);
-
-
         return builder
                 .given("test_state")
                 .uponReceiving("a_request_for_Brands")
@@ -51,8 +43,25 @@ public class ConsumerTestAppBrandsDsl {
                 .willRespondWith()
                     .headers(headers)
                     .status(200)
-                    .body(body)
-                    //.body(expectbody)
+                    /*.body(
+                        new PactDslJsonBody()
+                                .minArrayLike("Data", 1, 2)
+                                        .stringValue("provider", "京东")
+                                        .stringValue("brand", "神舟")
+                                        .stringMatcher("model", "战神\\d+", "战神123456")
+                                        .numberValue("price", 12345.0)
+                                    .closeObject()
+                                .closeArray()
+
+                            *//*.object("Data")
+                                .stringValue("provider", "dddd")
+                                .stringValue("brand", "John")
+                                //.stringValue("model", "Smith")
+                                .stringMatcher("model", "ORDER_ID_\\d+", "ORDER_ID_123456")
+                                .numberValue("price", 12345.0)
+                            .closeObject()*//*
+                    )*/
+                    .body(expectbody)
                 .toFragment();
     }
 

@@ -5,6 +5,7 @@ package com.thoughtworks.pact.consumer;
  */
 
 import au.com.dius.pact.consumer.*;
+import au.com.dius.pact.consumer.dsl.PactDslJsonBody;
 import au.com.dius.pact.model.PactFragment;
 import au.com.dius.pact.consumer.dsl.PactDslWithProvider;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -22,7 +23,7 @@ import static junit.framework.TestCase.assertEquals;
 
 public class ConsumerTestBrandsJDProducts {
 
-    private static final String URL = "http://localhost:6003";
+    private static final String URL = "http://localhost:6001";
     private static String expectbody = "{\"products\": [{\"brand\": \"\u8054\u60f3\",\"model\": \"\u5c0f\u65b0Air\",\"price\": 6999}],\"provider\": \"\u4eac\u4e1c\"}";
 
     private JsonNode expectbodyjson() {
@@ -44,7 +45,7 @@ public class ConsumerTestBrandsJDProducts {
     }
 
     @Rule
-    public PactProviderRule provider = new PactProviderRule("jd_products_provider", "localhost", 6003, this);
+    public PactProviderRule provider = new PactProviderRule("jd_products_provider", "localhost", 6001, this);
 
     @Pact(provider="jd_products_provider", consumer="brands_consumer")
     public PactFragment createFragment(PactDslWithProvider builder) {

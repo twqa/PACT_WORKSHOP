@@ -7,6 +7,7 @@ buildscript {
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        classpath('au.com.dius:pact-jvm-provider-gradle_2.11:3.2.6')
     }
 }
 
@@ -16,6 +17,7 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
+apply plugin: 'au.com.dius.pact'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -29,6 +31,25 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-thymeleaf')
     compile("com.fasterxml.jackson.core:jackson-databind")
     testCompile("junit:junit")
+    testCompile("au.com.dius:pact-jvm-consumer-junit_2.11:3.2.6")
+}
+
+pact {
+    serviceProviders {
+        // You can define as many as you need, but each must have a unique name
+        foo_provider1 {
+            // All the provider properties are optional, and have sensible defaults (shown below)
+            protocol = 'http'
+            host = 'localhost'
+            port = 8000
+            path = ''
+            // Again, you can define as many consumers for each provider as you need, but each must have a unique name
+            hasPactWith('foo_consumer1') {
+                // currently supports a file path using file() or a URL using url()
+                pactFile = file('target/pacts/app_consumer-brands_provider.json')
+            }
+        }
+    }
 }
 
 task wrapper(type: Wrapper) {

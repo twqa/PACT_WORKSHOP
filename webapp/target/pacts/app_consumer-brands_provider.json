@@ -1,17 +1,17 @@
 {
     "provider": {
-        "name": "models_provider"
+        "name": "brands_provider"
     },
     "consumer": {
-        "name": "models_consumer"
+        "name": "app_consumer"
     },
     "interactions": [
         {
             "providerState": "test_state",
-            "description": "a_request_for_Models",
+            "description": "a_request_for_Brands",
             "request": {
                 "method": "GET",
-                "path": "/api/mod=\u6218\u795e",
+                "path": "/api/brand=\u795e\u821f",
                 "body": null
             },
             "response": {
