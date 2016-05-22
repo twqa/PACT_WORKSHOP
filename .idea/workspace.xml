@@ -46,76 +46,9 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumerdsl/ConsumerTestBrandsJDProductsDsl.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/models/ModelsClient.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/provider/ProviderTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/build/classes/main/com/example/Application.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/build/classes/main/com/example/model/ApiDataProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/build/classes/main/com/example/model/Data.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/build/classes/main/com/example/model/DataProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/build/classes/main/com/example/model/LocalDataProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/build/classes/main/com/example/model/SourceProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/build/classes/test/com/thoughtworks/pact/brands/ConsumerClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestBrandsDsl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/build/classes/test/com/thoughtworks/pact/models/ModelsClient$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webapp/build/classes/test/com/thoughtworks/pact/models/ModelsClient.class" afterPath="" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestTBProducts.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsTBProducts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/PactTestingPing/.gradle/2.9/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.class" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestAppModels.class" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestAppModels.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestBrandsJDProducts.class" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestBrandsJDProducts.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestBrandsTBProducts.class" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestBrandsTBProducts.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestModelsJDProducts.class" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestModelsJDProducts.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestModelsTBProducts.class" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestModelsTBProducts.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumerdsl/ConsumerTestAppBrandsDsl.class" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumerdsl/ConsumerTestAppBrandsDsl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumerdsl/ConsumerTestBrandsJDProductsDsl.class" afterPath="$PROJECT_DIR$/PactTestingPing/build/classes/test/com/thoughtworks/pact/consumerdsl/ConsumerTestBrandsJDProductsDsl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/test-results/binary/test/output.bin" afterPath="$PROJECT_DIR$/PactTestingPing/build/test-results/binary/test/output.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/test-results/binary/test/output.bin.idx" afterPath="$PROJECT_DIR$/PactTestingPing/build/test-results/binary/test/output.bin.idx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/test-results/binary/test/results.bin" afterPath="$PROJECT_DIR$/PactTestingPing/build/test-results/binary/test/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.gradle/2.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/webapp/.gradle/2.9/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.gradle/2.9/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/webapp/.gradle/2.9/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.gradle/2.9/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/webapp/.gradle/2.9/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.gradle/2.9/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/webapp/.gradle/2.9/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.class" afterPath="$PROJECT_DIR$/webapp/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/PactTestingPing/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTest.html" afterPath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTestAppBrands.html" afterPath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTestAppBrands.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTestAppModels.html" afterPath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTestAppModels.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTestBrandsJDProducts.html" afterPath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTestBrandsJDProducts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTestBrandsTBProducts.html" afterPath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTestBrandsTBProducts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTestModelsJDProducts.html" afterPath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTestModelsJDProducts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTestModelsTBProducts.html" afterPath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/classes/com.thoughtworks.pact.consumer.ConsumerTestModelsTBProducts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/classes/com.thoughtworks.pact.provider.ProviderTest.html" afterPath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/classes/com.thoughtworks.pact.provider.ProviderTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/index.html" afterPath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/packages/com.thoughtworks.pact.consumer.html" afterPath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/packages/com.thoughtworks.pact.consumer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/packages/com.thoughtworks.pact.provider.html" afterPath="$PROJECT_DIR$/PactTestingPing/build/reports/tests/packages/com.thoughtworks.pact.provider.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTest.xml" afterPath="$PROJECT_DIR$/PactTestingPing/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTestAppBrands.xml" afterPath="$PROJECT_DIR$/PactTestingPing/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTestAppBrands.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTestAppModels.xml" afterPath="$PROJECT_DIR$/PactTestingPing/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTestAppModels.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTestBrandsJDProducts.xml" afterPath="$PROJECT_DIR$/PactTestingPing/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTestBrandsJDProducts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTestBrandsTBProducts.xml" afterPath="$PROJECT_DIR$/PactTestingPing/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTestBrandsTBProducts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTestModelsJDProducts.xml" afterPath="$PROJECT_DIR$/PactTestingPing/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTestModelsJDProducts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTestModelsTBProducts.xml" afterPath="$PROJECT_DIR$/PactTestingPing/build/test-results/TEST-com.thoughtworks.pact.consumer.ConsumerTestModelsTBProducts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/build/test-results/TEST-com.thoughtworks.pact.provider.ProviderTest.xml" afterPath="$PROJECT_DIR$/PactTestingPing/build/test-results/TEST-com.thoughtworks.pact.provider.ProviderTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppModels.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppModels.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsJDProducts.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsJDProducts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsTBProducts.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsTBProducts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestModelsJDProducts.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestModelsJDProducts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestModelsTBProducts.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestModelsTBProducts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumerdsl/ConsumerTestAppBrandsDsl.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumerdsl/ConsumerTestAppBrandsDsl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumerdsl/ConsumerTestBrandsJDProductsDsl.java" afterPath="$PROJECT_DIR$/PactTestingPing/src/test/java/com/thoughtworks/pact/consumerdsl/ConsumerTestBrandsJDProductsDsl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PactTestingPing/target/pacts/brands_consumer-jd_products_provider.json" afterPath="$PROJECT_DIR$/PactTestingPing/target/pacts/brands_consumer-jd_products_provider.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.idea/gradle.xml" afterPath="$PROJECT_DIR$/webapp/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/webapp/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.java" afterPath="$PROJECT_DIR$/webapp/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.java" />
     </list>
     <list id="f3812e04-c26d-458c-abc3-36bbf84059bc" name="Failed commit: Default" comment="pact workshop - ping sample code">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PactTestingPing/.idea/compiler.xml" />
@@ -891,16 +824,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PACT_WORKSHOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PACT_WORKSHOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -1459,7 +1382,7 @@
       <workItem from="1463469389039" duration="5165000" />
       <workItem from="1463551579147" duration="345000" />
       <workItem from="1463561252643" duration="1117000" />
-      <workItem from="1463883386094" duration="11000" />
+      <workItem from="1463883386094" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="added package TBProducts">
       <created>1463466823386</created>
@@ -1490,7 +1413,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14479000" />
+    <option name="totallyTimeSpent" value="14537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -1506,10 +1429,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5503448" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1920439" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.218107" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18884121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18884121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1509299" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1509299" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
