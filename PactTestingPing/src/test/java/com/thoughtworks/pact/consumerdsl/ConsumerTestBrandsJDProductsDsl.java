@@ -30,19 +30,15 @@ public class ConsumerTestBrandsJDProductsDsl {
 
     private JsonNode expectBodyJson(String jsonStr) {
         JsonNode jsonNode = null;
-        //Map<String, Object> map1 = null;
 
         ObjectMapper omapper = new ObjectMapper();
 
         try {
             jsonNode = omapper.readTree(jsonStr);
-            //map1 = (Map<String, Object>)(omapper.readValue(jsonStr, Map.class));
 
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-        //Iterator<String> keys = rootNode.fieldNames();
 
         return jsonNode;
     }
@@ -50,7 +46,7 @@ public class ConsumerTestBrandsJDProductsDsl {
     @Rule
     public PactProviderRule provider = new PactProviderRule("jd_products_provider", "localhost", 6003, this);
 
-    @Pact(provider="jd_products_provider", consumer="brands_consumer")
+    @Pact(provider="jd_products_provider", consumer="dsl_brands_consumer")
     public PactFragment createFragment(PactDslWithProvider builder) {
         Map<String, String> headers = new HashMap<>();
         //headers.put("Content-Type", "application/json;charset=UTF-8");
@@ -61,9 +57,8 @@ public class ConsumerTestBrandsJDProductsDsl {
                 .stringMatcher("provider", "京东\\d*", "京东")
                 .minArrayLike("products", 1, 1)
                     .stringType("brand")
-                    //.stringType("model")
-                    //.string("model", "小新Air")
-                    .stringMatcher("model", "小新\\w*", "小新")
+                    .stringType("model")
+                    //.stringMatcher("model", "小新\\w*", "小新")
                     .numberType("price")
                     .closeObject()
                 .closeArray();
@@ -84,24 +79,25 @@ public class ConsumerTestBrandsJDProductsDsl {
     @Test
     @PactVerification("jd_products_provider")
     public void runTest() {
-        System.out.println("wwwwwwwwwwww");
 
-        JsonNode jsonNodeC = new JDProductsClient(URL + "/products").products();
+        System.out.println("*********** start runTest ***********");
 
-        System.out.println("kkkkkkkkkkkkkk");
+        JsonNode responseJson = null;
 
-        System.out.println(jsonNodeC);
-        System.out.println(jsonNodeC.get("products").getClass());
-        System.out.println(jsonNodeC.elements().next());
+        responseJson = new JDProductsClient(URL + "/products").products();
+
+        System.out.println("***********   ***********");
+
+        System.out.println(responseJson);
+        System.out.println(responseJson.get("products").getClass());
+        System.out.println(responseJson.elements().next());
+
+        System.out.println("*********** start assertion ***********");
 
         //JSONAssert.assertEquals(jsonNodeC, expectBodyJson(expectBody));
-
-        System.out.println("xxxxxxxxxxxxx");
-
-        //TestCase.assertEquals(new JDProductsClient(URL + "/products").products(), expectBodyJson(expectBody));
-        TestCase.assertEquals(jsonNodeC.get("provider"), expectBodyJson(expectBody).get("provider"));
+        TestCase.assertEquals(responseJson.get("provider"), expectBodyJson(expectBody).get("provider"));
 
         //new JDProductsClient(URL + "/products").products();
-        System.out.println("endendendendendendendendendend");
+        System.out.println("*********** end runTest ***********");
     }
 }

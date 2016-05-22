@@ -1,0 +1,52 @@
+{
+    "provider": {
+        "name": "brands_provider"
+    },
+    "consumer": {
+        "name": "dsl_app_consumer"
+    },
+    "interactions": [
+        {
+            "providerState": "test_state",
+            "description": "a_request_for_Brands",
+            "request": {
+                "method": "GET",
+                "path": "/api/brand=\u795e\u821f",
+                "body": null
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "text/plain;charset=UTF-8"
+                },
+                "body": "{\"Data\":[{\"provider\":\"iOLvxGZIXFZUrgXcjshE\",\"price\":136015849,\"model\":\"\u5c0f\u65b0\",\"brand\":\"yPpZXzakgvyzGWnEvbCV\"},{\"provider\":\"iOLvxGZIXFZUrgXcjshE\",\"price\":136015849,\"model\":\"\u5c0f\u65b0\",\"brand\":\"yPpZXzakgvyzGWnEvbCV\"}]}",
+                "matchingRules": {
+                    "$.body.Data[*].brand": {
+                        "match": "type"
+                    },
+                    "$.body.Data[*].model": {
+                        "regex": "\u5c0f\u65b0\\w*"
+                    },
+                    "$.body.Data": {
+                        "min": 2,
+                        "match": "type"
+                    },
+                    "$.body.Data[*].provider": {
+                        "match": "type"
+                    },
+                    "$.body.Data[*].price": {
+                        "match": "type"
+                    }
+                }
+            }
+        }
+    ],
+    "metadata": {
+        "pact-specification": {
+            "version": "2.0.0"
+        },
+        "pact-jvm": {
+            "version": "3.2.6"
+        }
+    }
+}
