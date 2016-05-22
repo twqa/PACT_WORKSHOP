@@ -38,26 +38,38 @@ dependencies {
 pact {
     serviceProviders {
         // You can define as many as you need, but each must have a unique name
-        foo_provider1 {
+        pact_provider1 {
             // All the provider properties are optional, and have sensible defaults (shown below)
             protocol = 'http'
             host = 'localhost'
             port = 8000
             path = ''
             // Again, you can define as many consumers for each provider as you need, but each must have a unique name
-            hasPactWith('foo_consumer1') {
+            hasPactWith('pact_consumer1') {
                 // currently supports a file path using file() or a URL using url()
                 pactFile = file('target/pacts/app_consumer-brands_provider.json')
             }
         }
-        foo_provider2 {
+        pact_provider2 {
             // All the provider properties are optional, and have sensible defaults (shown below)
             protocol = 'http'
             host = 'localhost'
             port = 6001
             path = ''
             // Again, you can define as many consumers for each provider as you need, but each must have a unique name
-            hasPactWith('foo_consumer2') {
+            hasPactWith('pact_consumer1') {
+                // currently supports a file path using file() or a URL using url()
+                pactFile = file('target/pacts/dsl_brands_consumer-jd_products_provider.json')
+            }
+        }
+        pact_provider3 {
+            // All the provider properties are optional, and have sensible defaults (shown below)
+            protocol = 'http'
+            host = 'localhost'
+            port = 6001
+            path = ''
+            // Again, you can define as many consumers for each provider as you need, but each must have a unique name
+            hasPactWith('pact_consumer3') {
                 // currently supports a file path using file() or a URL using url()
                 pactFile = file('target/pacts/brands_consumer-jd_products_provider.json')
             }

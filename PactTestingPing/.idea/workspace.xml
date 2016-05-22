@@ -18,8 +18,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/com/thoughtworks/pact/TBProducts/TBProductsClient.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/com/thoughtworks/pact/brands/BrandsClient$1.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/com/thoughtworks/pact/brands/BrandsClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/com/thoughtworks/pact/brands/ConsumerClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/com/thoughtworks/pact/consumer/ConsumerTest.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/com/thoughtworks/pact/models/ModelsClient$1.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/com/thoughtworks/pact/models/ModelsClient.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/test/com/thoughtworks/pact/provider/ProviderTest.class" />
@@ -136,8 +134,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/JDProducts/JDProductsClient.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/brands/BrandsClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/brands/ConsumerClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTest.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppModels.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsJDProducts.java" />
@@ -270,18 +266,28 @@
       <file leaf-file-name="ConsumerTestAppBrandsDsl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumerdsl/ConsumerTestAppBrandsDsl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-195">
-              <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+            <state relative-caret-position="285">
+              <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsumerTestBrandsJDProductsDsl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="44" column="23" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerTestBrandsJDProductsDsl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumerdsl/ConsumerTestBrandsJDProductsDsl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-218">
-              <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+            <state relative-caret-position="221">
+              <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -289,21 +295,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsumerTestAppModels.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppModels.java">
+      <file leaf-file-name="app_consumer-brands_provider.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/pacts/app_consumer-brands_provider.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsumerTestAppBrands.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            <state relative-caret-position="300">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -730,7 +726,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrandsDsl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/JDProducts/JDProductsClient.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsJDProductsDsl.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/target/pacts/brands_consumer-jd_products_provider.json" />
         <option value="$PROJECT_DIR$/target/pacts/app_consumer-brands_provider.json" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.java" />
@@ -741,6 +736,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsTBProducts.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumerdsl/ConsumerTestAppBrandsDsl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumerdsl/ConsumerTestBrandsJDProductsDsl.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -1606,7 +1602,7 @@
       <updated>1463469160083</updated>
       <workItem from="1463469163117" duration="235000" />
       <workItem from="1463495758742" duration="10035000" />
-      <workItem from="1463533212457" duration="25114000" />
+      <workItem from="1463533212457" duration="26025000" />
     </task>
     <servers />
   </component>
@@ -1617,17 +1613,11 @@
     <history-entry file="ConsumerTestAppBrandsDsl - 2016.05.22 at 10h 15m 27s.xml">
       <configuration name="ConsumerTestAppBrandsDsl" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConsumerTestBrandsJDProducts - 2016.05.22 at 09h 51m 39s.xml">
-      <configuration name="ConsumerTestBrandsJDProducts" configurationId="JUnit" />
+    <history-entry file="ConsumerTestAppBrandsDsl - 2016.05.22 at 10h 21m 29s.xml">
+      <configuration name="ConsumerTestAppBrandsDsl" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConsumerTestBrandsJDProducts - 2016.05.22 at 09h 55m 42s.xml">
-      <configuration name="ConsumerTestBrandsJDProducts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConsumerTestBrandsJDProducts - 2016.05.22 at 09h 58m 37s.xml">
-      <configuration name="ConsumerTestBrandsJDProducts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConsumerTestBrandsJDProducts - 2016.05.22 at 10h 01m 38s.xml">
-      <configuration name="ConsumerTestBrandsJDProducts" configurationId="JUnit" />
+    <history-entry file="ConsumerTestAppBrandsDsl - 2016.05.22 at 10h 22m 18s.xml">
+      <configuration name="ConsumerTestAppBrandsDsl" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ConsumerTestBrandsJDProducts - 2016.05.22 at 10h 02m 37s.xml">
       <configuration name="ConsumerTestBrandsJDProducts" configurationId="JUnit" />
@@ -1638,12 +1628,18 @@
     <history-entry file="ConsumerTestBrandsJDProductsDsl - 2016.05.22 at 10h 16m 03s.xml">
       <configuration name="ConsumerTestBrandsJDProductsDsl" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ConsumerTestBrandsJDProductsDsl - 2016.05.22 at 10h 26m 32s.xml">
+      <configuration name="ConsumerTestBrandsJDProductsDsl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsumerTestBrandsJDProductsDsl - 2016.05.22 at 10h 31m 04s.xml">
+      <configuration name="ConsumerTestBrandsJDProductsDsl" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="PactTestingPing_[test] - 2016.05.22 at 10h 12m 46s.xml">
       <configuration name="PactTestingPing [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35384000" />
+    <option name="totallyTimeSpent" value="36295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="817" extended-state="6" />
@@ -1658,16 +1654,16 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23448277" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23448277" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19862069" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2551724" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26752505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29613733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.062947065" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.062947065" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1884,14 +1880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/pacts/app_consumer-brands_provider.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/junit/framework/TestCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1932,17 +1920,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppModels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
+        <state relative-caret-position="510">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestModelsTBProducts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="735">
           <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
           <folding />
         </state>
@@ -1950,15 +1938,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestModelsJDProducts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
+        <state relative-caret-position="885">
           <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/pacts/brands_consumer-tb_products_provider.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsJDProducts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="73" column="0" selection-start-line="72" selection-start-column="8" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <marker date="1463882985000" expanded="true" signature="2468:2654" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/pacts/dsl_app_consumer-brands_provider.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsTBProducts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="942">
+        <state relative-caret-position="497">
           <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1966,47 +1990,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestBrandsJDProducts.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumerdsl/ConsumerTestBrandsJDProductsDsl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+        <state relative-caret-position="221">
+          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
           <folding>
-            <marker date="1463882985000" expanded="true" signature="2468:2654" placeholder="..." />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppModels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumer/ConsumerTestAppBrands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumerdsl/ConsumerTestAppBrandsDsl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+        <state relative-caret-position="285">
+          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/pact/consumerdsl/ConsumerTestBrandsJDProductsDsl.java">
+    <entry file="file://$PROJECT_DIR$/target/pacts/app_consumer-brands_provider.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-218">
-          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

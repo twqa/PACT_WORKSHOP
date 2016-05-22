@@ -57,9 +57,8 @@ public class ConsumerTestBrandsJDProductsDsl {
                 .stringMatcher("provider", "京东\\d*", "京东")
                 .minArrayLike("products", 1, 1)
                     .stringType("brand")
-                    //.stringType("model")
-                    //.string("model", "小新Air")
-                    .stringMatcher("model", "小新\\w*", "小新")
+                    .stringType("model")
+                    //.stringMatcher("model", "小新\\w*", "小新")
                     .numberType("price")
                     .closeObject()
                 .closeArray();
@@ -80,24 +79,25 @@ public class ConsumerTestBrandsJDProductsDsl {
     @Test
     @PactVerification("jd_products_provider")
     public void runTest() {
-        System.out.println("wwwwwwwwwwww");
 
-        JsonNode jsonNodeJ = new JDProductsClient(URL + "/products").products();
+        System.out.println("*********** start runTest ***********");
 
-        System.out.println("kkkkkkkkkkkkkk");
+        JsonNode responseJson = null;
 
-        System.out.println(jsonNodeJ);
-        System.out.println(jsonNodeJ.get("products").getClass());
-        System.out.println(jsonNodeJ.elements().next());
+        responseJson = new JDProductsClient(URL + "/products").products();
+
+        System.out.println("***********   ***********");
+
+        System.out.println(responseJson);
+        System.out.println(responseJson.get("products").getClass());
+        System.out.println(responseJson.elements().next());
+
+        System.out.println("*********** start assertion ***********");
 
         //JSONAssert.assertEquals(jsonNodeC, expectBodyJson(expectBody));
-
-        System.out.println("xxxxxxxxxxxxx");
-
-        //TestCase.assertEquals(new JDProductsClient(URL + "/products").products(), expectBodyJson(expectBody));
-        TestCase.assertEquals(jsonNodeJ.get("provider"), expectBodyJson(expectBody).get("provider"));
+        TestCase.assertEquals(responseJson.get("provider"), expectBodyJson(expectBody).get("provider"));
 
         //new JDProductsClient(URL + "/products").products();
-        System.out.println("endendendendendendendendendend");
+        System.out.println("*********** end runTest ***********");
     }
 }

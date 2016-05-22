@@ -22,9 +22,9 @@
                 "body": {
                     "products": [
                         {
-                            "brand": "OOLKxgnWoXUnMYzAesRa",
-                            "model": "\u5c0f\u65b0",
-                            "price": 126499398
+                            "brand": "oYxiTwGVVyuNABEqpBOZ",
+                            "model": "PaaorMXGkLyTGCSlHEFo",
+                            "price": 138552696
                         }
                     ],
                     "provider": "\u4eac\u4e1c"
@@ -37,7 +37,7 @@
                         "regex": "\u4eac\u4e1c\\d*"
                     },
                     "$.body.products[*].model": {
-                        "regex": "\u5c0f\u65b0\\w*"
+                        "match": "type"
                     },
                     "$.body.products[*].brand": {
                         "match": "type"

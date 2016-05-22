@@ -19,7 +19,7 @@
                 "headers": {
                     "Content-Type": "text/plain;charset=UTF-8"
                 },
-                "body": "{\"Data\":[{\"provider\":\"vqEwcIwMTqmqZOvdlnYN\",\"price\":240220480,\"model\":\"\u5c0f\u65b0\",\"brand\":\"EaEDnDbfctMIAFDGcqse\"},{\"provider\":\"vqEwcIwMTqmqZOvdlnYN\",\"price\":240220480,\"model\":\"\u5c0f\u65b0\",\"brand\":\"EaEDnDbfctMIAFDGcqse\"}]}",
+                "body": "{\"Data\":[{\"provider\":\"iOLvxGZIXFZUrgXcjshE\",\"price\":136015849,\"model\":\"\u5c0f\u65b0\",\"brand\":\"yPpZXzakgvyzGWnEvbCV\"},{\"provider\":\"iOLvxGZIXFZUrgXcjshE\",\"price\":136015849,\"model\":\"\u5c0f\u65b0\",\"brand\":\"yPpZXzakgvyzGWnEvbCV\"}]}",
                 "matchingRules": {
                     "$.body.Data[*].brand": {
                         "match": "type"

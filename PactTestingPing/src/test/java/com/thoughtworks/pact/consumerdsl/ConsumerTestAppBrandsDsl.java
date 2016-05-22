@@ -26,7 +26,7 @@ import java.util.Map;
 public class ConsumerTestAppBrandsDsl {
 
     private static final String URL = "http://localhost:8000";
-    private static String expectbody = "{\"Data\":[{\"provider\": \"京东\",\"brand\": \"神舟\",\"model\": \" 战神K610D-i7 D2\",\"price\": 3469.0},{\"provider\": \"淘宝\",\"brand\": \"神舟\",\"model\": \"战神 K650D-I5 D2\",\"price\": 3076.0}]}";
+    private static String expectBody = "{\"Data\":[{\"provider\": \"京东\",\"brand\": \"神舟\",\"model\": \" 战神K610D-i7 D2\",\"price\": 3469.0},{\"provider\": \"淘宝\",\"brand\": \"神舟\",\"model\": \"战神 K650D-I5 D2\",\"price\": 3076.0}]}";
 
     @Rule
     public PactProviderRule provider = new PactProviderRule("brands_provider", "localhost", 8000, this);
@@ -67,7 +67,7 @@ public class ConsumerTestAppBrandsDsl {
 //                                .closeObject()
 //                            .closeArray()
 //                    )
-                    //.body(expectbody)
+                    //.body(expectBody)
                 .toFragment();
     }
 
@@ -77,7 +77,7 @@ public class ConsumerTestAppBrandsDsl {
 
         String responseStr = new BrandsClient(URL + "/api/brand=神舟").brands();
 
-        //TestCase.assertEquals(responseStr, expectbody);
+        TestCase.assertEquals(responseStr, expectBody);
 
     }
 }
