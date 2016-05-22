@@ -24,25 +24,7 @@ import java.util.Map;
 public class ConsumerTestAppModels {
 
     private static final String URL = "http://localhost:8010";
-    private static String expectbody = "{\"Data\":[{\"provider\": \"京东\",\"brand\": \"神舟\",\"model\": \" 战神K610D-i7 D2\",\"price\": 3469.0},{\"provider\": \"淘宝\",\"brand\": \"神舟\",\"model\": \"战神 K650D-I5 D2\",\"price\": 3076.0}]}";
-
-    private JsonNode expectbodyjson() {
-
-        JsonNode rootNode = null;
-
-        ObjectMapper mapper = new ObjectMapper();
-        //JSON ----> JsonNode
-        try {
-            rootNode = mapper.readTree(expectbody);
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        //Iterator<String> keys = rootNode.fieldNames();
-        System.out.println("hahahah");
-        return rootNode;
-    }
+    private static String expectBody = "{\"Data\":[{\"provider\": \"京东\",\"brand\": \"神舟\",\"model\": \" 战神K610D-i7 D2\",\"price\": 3469.0},{\"provider\": \"淘宝\",\"brand\": \"神舟\",\"model\": \"战神 K650D-I5 D2\",\"price\": 3076.0}]}";
 
     @Rule
     public PactProviderRule provider = new PactProviderRule("models_provider", "localhost", 8010, this);
@@ -61,14 +43,14 @@ public class ConsumerTestAppModels {
                 .willRespondWith()
                 .headers(headers)
                 .status(200)
-                .body(expectbody)
+                .body(expectBody)
                 .toFragment();
     }
 
     @Test
     @PactVerification("models_provider")
     public void runTest() {
-        TestCase.assertEquals(new ModelsClient(URL + "/api/mod=战神").models(), expectbody);
+        TestCase.assertEquals(new ModelsClient(URL + "/api/mod=战神").models(), expectBody);
 
     }
 }

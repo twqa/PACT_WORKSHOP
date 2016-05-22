@@ -49,12 +49,8 @@ public class ConsumerTestAppBrands {
     @Test
     @PactVerification("brands_provider")
     public void runTest() {
-        //TestCase.assertEquals(new BrandsClient(URL + "/api/brand=神舟").brands(), Arrays.asList(new Brands(), new Brands(), new Brands(), new Brands()));
+
         TestCase.assertEquals(new BrandsClient(URL + "/api/brand=神舟").brands(), expectbody);
 
-        /*Map expectedResponse = new HashMap();
-        expectedResponse.put("price", 42);
-        Assert.assertEquals(new BrandsClient(URL + "/api/brand=神舟").brands(), expectedResponse);
-        */
     }
 }

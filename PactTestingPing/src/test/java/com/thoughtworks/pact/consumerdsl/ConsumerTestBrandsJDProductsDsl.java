@@ -30,19 +30,15 @@ public class ConsumerTestBrandsJDProductsDsl {
 
     private JsonNode expectBodyJson(String jsonStr) {
         JsonNode jsonNode = null;
-        //Map<String, Object> map1 = null;
 
         ObjectMapper omapper = new ObjectMapper();
 
         try {
             jsonNode = omapper.readTree(jsonStr);
-            //map1 = (Map<String, Object>)(omapper.readValue(jsonStr, Map.class));
 
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-        //Iterator<String> keys = rootNode.fieldNames();
 
         return jsonNode;
     }
@@ -50,7 +46,7 @@ public class ConsumerTestBrandsJDProductsDsl {
     @Rule
     public PactProviderRule provider = new PactProviderRule("jd_products_provider", "localhost", 6003, this);
 
-    @Pact(provider="jd_products_provider", consumer="brands_consumer")
+    @Pact(provider="jd_products_provider", consumer="dsl_brands_consumer")
     public PactFragment createFragment(PactDslWithProvider builder) {
         Map<String, String> headers = new HashMap<>();
         //headers.put("Content-Type", "application/json;charset=UTF-8");
@@ -86,20 +82,20 @@ public class ConsumerTestBrandsJDProductsDsl {
     public void runTest() {
         System.out.println("wwwwwwwwwwww");
 
-        JsonNode jsonNodeC = new JDProductsClient(URL + "/products").products();
+        JsonNode jsonNodeJ = new JDProductsClient(URL + "/products").products();
 
         System.out.println("kkkkkkkkkkkkkk");
 
-        System.out.println(jsonNodeC);
-        System.out.println(jsonNodeC.get("products").getClass());
-        System.out.println(jsonNodeC.elements().next());
+        System.out.println(jsonNodeJ);
+        System.out.println(jsonNodeJ.get("products").getClass());
+        System.out.println(jsonNodeJ.elements().next());
 
         //JSONAssert.assertEquals(jsonNodeC, expectBodyJson(expectBody));
 
         System.out.println("xxxxxxxxxxxxx");
 
         //TestCase.assertEquals(new JDProductsClient(URL + "/products").products(), expectBodyJson(expectBody));
-        TestCase.assertEquals(jsonNodeC.get("provider"), expectBodyJson(expectBody).get("provider"));
+        TestCase.assertEquals(jsonNodeJ.get("provider"), expectBodyJson(expectBody).get("provider"));
 
         //new JDProductsClient(URL + "/products").products();
         System.out.println("endendendendendendendendendend");

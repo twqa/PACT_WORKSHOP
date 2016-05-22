@@ -22,30 +22,12 @@
                 "body": {
                     "products": [
                         {
-                            "brand": "VvNJLedEsnVHLRLUOyRp",
-                            "model": "\u5c0f\u65b0",
-                            "price": 189520563
+                            "brand": "\u8054\u60f3",
+                            "model": "\u5c0f\u65b0Air",
+                            "price": 6999
                         }
                     ],
                     "provider": "\u4eac\u4e1c"
-                },
-                "matchingRules": {
-                    "$.body.products[*].price": {
-                        "match": "type"
-                    },
-                    "$.body.provider": {
-                        "regex": "\u4eac\u4e1c\\d*"
-                    },
-                    "$.body.products[*].model": {
-                        "regex": "\u5c0f\u65b0\\w*"
-                    },
-                    "$.body.products[*].brand": {
-                        "match": "type"
-                    },
-                    "$.body.products": {
-                        "min": 1,
-                        "match": "type"
-                    }
                 }
             }
         }

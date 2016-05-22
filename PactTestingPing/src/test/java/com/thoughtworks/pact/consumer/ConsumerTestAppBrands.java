@@ -13,6 +13,9 @@ import com.thoughtworks.pact.brands.BrandsClient;
 import junit.framework.TestCase;
 import org.junit.Rule;
 import org.junit.Test;
+import org.springframework.core.ParameterizedTypeReference;
+import org.springframework.http.HttpMethod;
+import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -49,12 +52,22 @@ public class ConsumerTestAppBrands {
     @Test
     @PactVerification("brands_provider")
     public void runTest() {
-        //TestCase.assertEquals(new BrandsClient(URL + "/api/brand=神舟").brands(), Arrays.asList(new Brands(), new Brands(), new Brands(), new Brands()));
-        TestCase.assertEquals(new BrandsClient(URL + "/api/brand=神舟").brands(), expectbody);
 
-        /*Map expectedResponse = new HashMap();
-        expectedResponse.put("price", 42);
-        Assert.assertEquals(new BrandsClient(URL + "/api/brand=神舟").brands(), expectedResponse);
-        */
+        String responseStr = "";
+
+        //Pactice 1: no actual consumer request call, response the mock provider body directly
+        RestTemplate restTemplate;
+        restTemplate = new RestTemplate();
+
+        ParameterizedTypeReference<String> responseType = new ParameterizedTypeReference<String>() {};
+
+        responseStr = restTemplate.exchange(URL + "/api/brand=神舟", HttpMethod.GET, null, responseType).getBody();
+
+        //Pactice 2: no actual consumer request call, a simulated consumer class used
+//        responseStr = new BrandsClient(URL + "/api/brand=神舟").brands();
+
+        //the assertion for expected provider response and mocked provider response
+        TestCase.assertEquals(responseStr, expectbody);
+
     }
 }

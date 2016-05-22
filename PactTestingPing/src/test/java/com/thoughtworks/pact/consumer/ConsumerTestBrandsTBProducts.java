@@ -22,24 +22,21 @@ import java.util.Map;
 public class ConsumerTestBrandsTBProducts {
 
     private static final String URL = "http://localhost:6003";
-    private static String expectbody = "{\"products\": [{\"brand\": \"\u8054\u60f3\",\"model\": \"\u5c0f\u65b0Air\",\"price\": 6999}],\"provider\": \"\u4eac\u4e1c\"}";
+    private static String expectBody = "{\"products\": [{\"brand\": \"\u8054\u60f3\",\"model\": \"\u5c0f\u65b0Air\",\"price\": 6999}],\"provider\": \"\u4eac\u4e1c\"}";
 
-    private JsonNode expectbodyjson() {
+    private JsonNode expectBodyJson(String jsonStr) {
+        JsonNode jsonNode = null;
 
-        JsonNode rootNode = null;
+        ObjectMapper omapper = new ObjectMapper();
 
-        ObjectMapper mapper = new ObjectMapper();
-        //JSON ----> JsonNode
         try {
-            rootNode = mapper.readTree(expectbody);
+            jsonNode = omapper.readTree(jsonStr);
 
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        //Iterator<String> keys = rootNode.fieldNames();
-        System.out.println("hahahah");
-        return rootNode;
+        return jsonNode;
     }
 
     @Rule
@@ -59,14 +56,21 @@ public class ConsumerTestBrandsTBProducts {
                 .willRespondWith()
                 .headers(headers)
                 .status(200)
-                .body(expectbody)
+                .body(expectBody)
                 .toFragment();
     }
 
     @Test
     @PactVerification("tb_products_provider")
     public void runTest() {
-        TestCase.assertEquals(new TBProductsClient(URL + "/products").products(), expectbodyjson());
+
+        JsonNode responseJson = null;
+
+        responseJson = new TBProductsClient(URL + "/products").products();
+
+        //the assertion for expected provider response and mocked provider response
+        TestCase.assertEquals(responseJson, expectBodyJson(expectBody));
+
     }
 }
 

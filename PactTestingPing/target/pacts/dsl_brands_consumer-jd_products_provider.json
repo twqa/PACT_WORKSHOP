@@ -1,0 +1,61 @@
+{
+    "provider": {
+        "name": "jd_products_provider"
+    },
+    "consumer": {
+        "name": "dsl_brands_consumer"
+    },
+    "interactions": [
+        {
+            "providerState": "test_state",
+            "description": "a_request_for_jd_products",
+            "request": {
+                "method": "GET",
+                "path": "/products",
+                "body": null
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "body": {
+                    "products": [
+                        {
+                            "brand": "OOLKxgnWoXUnMYzAesRa",
+                            "model": "\u5c0f\u65b0",
+                            "price": 126499398
+                        }
+                    ],
+                    "provider": "\u4eac\u4e1c"
+                },
+                "matchingRules": {
+                    "$.body.products[*].price": {
+                        "match": "type"
+                    },
+                    "$.body.provider": {
+                        "regex": "\u4eac\u4e1c\\d*"
+                    },
+                    "$.body.products[*].model": {
+                        "regex": "\u5c0f\u65b0\\w*"
+                    },
+                    "$.body.products[*].brand": {
+                        "match": "type"
+                    },
+                    "$.body.products": {
+                        "min": 1,
+                        "match": "type"
+                    }
+                }
+            }
+        }
+    ],
+    "metadata": {
+        "pact-specification": {
+            "version": "2.0.0"
+        },
+        "pact-jvm": {
+            "version": "3.2.6"
+        }
+    }
+}
