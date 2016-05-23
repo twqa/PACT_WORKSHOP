@@ -22,9 +22,8 @@
                 "body": {
                     "products": [
                         {
-                            "brand": "oYxiTwGVVyuNABEqpBOZ",
-                            "model": "PaaorMXGkLyTGCSlHEFo",
-                            "price": 138552696
+                            "brand": "MSieggReozSQeTuFYBOp",
+                            "price": 827352017
                         }
                     ],
                     "provider": "\u4eac\u4e1c"
@@ -35,9 +34,6 @@
                     },
                     "$.body.provider": {
                         "regex": "\u4eac\u4e1c\\d*"
-                    },
-                    "$.body.products[*].model": {
-                        "match": "type"
                     },
                     "$.body.products[*].brand": {
                         "match": "type"

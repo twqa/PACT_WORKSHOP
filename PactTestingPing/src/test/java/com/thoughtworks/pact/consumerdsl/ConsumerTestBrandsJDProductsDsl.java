@@ -57,7 +57,7 @@ public class ConsumerTestBrandsJDProductsDsl {
                 .stringMatcher("provider", "京东\\d*", "京东")
                 .minArrayLike("products", 1, 1)
                     .stringType("brand")
-                    .stringType("model")
+                    //.stringType("model")
                     //.stringMatcher("model", "小新\\w*", "小新")
                     .numberType("price")
                     .closeObject()
@@ -86,16 +86,23 @@ public class ConsumerTestBrandsJDProductsDsl {
 
         responseJson = new JDProductsClient(URL + "/products").products();
 
-        System.out.println("***********   ***********");
+        System.out.println("*********** show the content of responseJson ***********");
 
         System.out.println(responseJson);
         System.out.println(responseJson.get("products").getClass());
-        System.out.println(responseJson.elements().next());
+        System.out.println(responseJson.get("products"));
+        System.out.println(responseJson.get("products").size());
+        System.out.println(responseJson.get("products").get(0).get("brand").getNodeType());
+        //System.out.println(responseJson.get("products").get(0).get("model").getNodeType());
+        System.out.println(responseJson.get("products").get(0).get("price").getNodeType());
+        System.out.println(responseJson.get("products").get(0).get("price").getClass());
+        System.out.println(responseJson.get("provider"));
 
         System.out.println("*********** start assertion ***********");
 
         //JSONAssert.assertEquals(jsonNodeC, expectBodyJson(expectBody));
         TestCase.assertEquals(responseJson.get("provider"), expectBodyJson(expectBody).get("provider"));
+        TestCase.assertEquals(responseJson.get("products").get(0).get("brand").getNodeType().toString(), "STRING");
 
         //new JDProductsClient(URL + "/products").products();
         System.out.println("*********** end runTest ***********");

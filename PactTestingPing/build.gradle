@@ -57,7 +57,7 @@ pact {
             port = 6001
             path = ''
             // Again, you can define as many consumers for each provider as you need, but each must have a unique name
-            hasPactWith('pact_consumer1') {
+            hasPactWith('pact_consumer2') {
                 // currently supports a file path using file() or a URL using url()
                 pactFile = file('target/pacts/dsl_brands_consumer-jd_products_provider.json')
             }
