@@ -18,6 +18,7 @@ apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
 apply plugin: 'au.com.dius.pact'
+apply plugin: 'application'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -56,4 +57,12 @@ task wrapper(type: Wrapper) {
     gradleVersion = '2.9'
 }
 
+task runweb(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = "com.web.WebApplication"
+}
+
+springBoot {
+    mainClass = 'com.server.Application'
+}
 
