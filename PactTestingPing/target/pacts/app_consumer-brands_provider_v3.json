@@ -1,6 +1,6 @@
 {
     "provider": {
-        "name": "brands_provider_v2"
+        "name": "brands_provider_v3"
     },
     "consumer": {
         "name": "app_consumer"
@@ -8,7 +8,23 @@
     "interactions": [
         {
             "providerState": "test_state",
-            "description": "a_request_for_Brands",
+            "description": "a_request_for_Brands HS",
+            "request": {
+                "method": "GET",
+                "path": "/api/brand=\u534e\u7855",
+                "body": null
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "text/plain;charset=UTF-8"
+                },
+                "body": "{\"Data\":[{\"provider\": \"\u4eac\u4e1c\",\"brand\": \"\u534e\u7855\",\"model\": \"R557LI\",\"price\": 3599.0},{\"provider\": \"\u6dd8\u5b9d\",\"brand\": \"\u534e\u7855\",\"model\": \"X552WE5100\",\"price\": 2387.0}]}"
+            }
+        },
+        {
+            "providerState": "test_state",
+            "description": "a_request_for_Brands SZ",
             "request": {
                 "method": "GET",
                 "path": "/api/brand=\u795e\u821f",
