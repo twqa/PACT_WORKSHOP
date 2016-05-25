@@ -29,66 +29,66 @@
 打开命令行工具
 
 ##启动python抓数据服务
-  -进入python服务文件夹
+  - 进入python服务文件夹
 ```
   cd ContractTestDemoServices/
 ```
-  -启动TBGrabber.py
+  - 启动TBGrabber.py
 ```
   python TBGrabber.py
 ```
-  -新建命令行窗口，进入python文件夹后启动JDGrabber.py
+  - 新建命令行窗口，进入python文件夹后启动JDGrabber.py
 ```
   python JDGrabber.py
 ```
-  -通过浏览器访问链接，若返回JSON数据则确认服务已启动
+  - 通过浏览器访问链接，若返回JSON数据则确认服务已启动
 ```
   localhost:6001/products
   localhost:6002/products
 ```
 
 ##启动brand-server
-  -进入brand-server文件夹
+  - 进入brand-server文件夹
 ```
   cd brand-server/
 ```
-  -启动brand服务
+  - 启动brand服务
 ```
   ./gradlew bootRun
 ```
-  -通过浏览器访问链接，若返回JSON数据则确认服务已启动
+  - 通过浏览器访问链接，若返回JSON数据则确认服务已启动
 ```
   localhost:8000/api/brand=神舟
 ```
 
 ##启动modle-server
-  -进入modle-server文件夹
+  - 进入modle-server文件夹
 ```
   cd modle-server/
 ```
-  -启动modle服务
+  - 启动modle服务
 ```
   ./gradlew bootRun
 ```
-  -通过浏览器访问链接，若返回JSON数据则确认服务已启动
+  - 通过浏览器访问链接，若返回JSON数据则确认服务已启动
 ```
   localhost:8010/api/mod=MAC
 ```
 
 ##启动webapp
-  -进入webapp文件夹
+  - 进入webapp文件夹
 ```
   cd webapp/
 ```
-  -启动application服务
+  - 启动application服务
 ```
   ./gradlew bootRun
 ```
-  -启动web网站
+  - 启动web网站
 ```
   ./gradlew runweb
 ```
-  -通过浏览器访问链接
+  - 通过浏览器访问链接
 ```
   localhost:7000
 ```
