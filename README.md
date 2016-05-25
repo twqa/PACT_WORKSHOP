@@ -5,7 +5,7 @@
 - gradle
 
 ## nice to have
-### intelliJ
+- intelliJ
 
 
 # 功能介绍
