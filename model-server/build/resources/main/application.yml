@@ -1,5 +1,0 @@
-path:
-  JDapi: http://localhost:6001/products
-  TBapi: http://localhost:6002/products
-  JDlocal: /Users/xiaoxu/workspace/WORKSHOP-MAY/model-server/src/main/resources/JDdata.json
-  TBlocal: /Users/xiaoxu/workspace/WORKSHOP-MAY/model-server/src/main/resources/TBdata.json
