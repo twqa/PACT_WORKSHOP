@@ -18,9 +18,5 @@
         <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="name-parser_main" target="1.8" />
-      <module name="name-parser_test" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
