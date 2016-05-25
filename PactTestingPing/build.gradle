@@ -66,12 +66,12 @@ pact {
             // All the provider properties are optional, and have sensible defaults (shown below)
             protocol = 'http'
             host = 'localhost'
-            port = 6001
+            port = 60012
             path = ''
             // Again, you can define as many consumers for each provider as you need, but each must have a unique name
             hasPactWith('pact_consumer3') {
                 // currently supports a file path using file() or a URL using url()
-                pactFile = file('target/pacts/brands_consumer-jd_products_provider.json')
+                pactFile = file('target/pacts/dsl_brands_consumer-tb_products_provider.json')
             }
         }
     }
