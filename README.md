@@ -1,8 +1,8 @@
 # 环境需求
 
-### java --version >= 1.8
-### python --version >=2.7
-### gradle
+- java --version >= 1.8
+- python --version >=2.7
+- gradle
 
 ## nice to have
 ### intelliJ
