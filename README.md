@@ -2,10 +2,10 @@
 
 ### java --version >= 1.8
 ### python --version >=2.7
-### IDE=intelliJ
+### gradle
 
 ## nice to have
-### gradle
+### intelliJ
 
 
 # 功能介绍
